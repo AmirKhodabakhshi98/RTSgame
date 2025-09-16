@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: 1d7aec8245306e3489c2c84e8d00b784
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3937881300522284051
+    second: tank_turret_90_spaced_0
+  - first:
+      213: -2542578323023352513
+    second: tank_turret_90_spaced_1
+  - first:
+      213: 2161385424118122060
+    second: tank_turret_90_spaced_2
+  - first:
+      213: -4127094644975494824
+    second: tank_turret_90_spaced_3
+  - first:
+      213: -3039800020343235170
+    second: tank_turret_90_spaced_4
+  - first:
+      213: -5783168339940433262
+    second: tank_turret_90_spaced_5
+  - first:
+      213: 2229073630012516681
+    second: tank_turret_90_spaced_6
+  - first:
+      213: 422419549275042797
+    second: tank_turret_90_spaced_7
+  - first:
+      213: -3718435368303695748
+    second: tank_turret_90_spaced_8
+  - first:
+      213: 7763705053069159401
+    second: tank_turret_90_spaced_9
+  - first:
+      213: -6702381245618872988
+    second: tank_turret_90_spaced_10
+  - first:
+      213: -5934599487440147316
+    second: tank_turret_90_spaced_11
+  - first:
+      213: -8402983133411118502
+    second: tank_turret_90_spaced_12
+  - first:
+      213: -8823919268183193495
+    second: tank_turret_90_spaced_13
+  - first:
+      213: 6404558553440527573
+    second: tank_turret_90_spaced_14
+  - first:
+      213: -1056361460208190615
+    second: tank_turret_90_spaced_15
+  - first:
+      213: -6197002991025774369
+    second: tank_turret_90_spaced_16
+  - first:
+      213: 2503882477854774516
+    second: tank_turret_90_spaced_17
+  - first:
+      213: 3066761371744787722
+    second: tank_turret_90_spaced_18
+  - first:
+      213: 3805248356428730255
+    second: tank_turret_90_spaced_19
+  - first:
+      213: 4483193354942820027
+    second: tank_turret_90_spaced_20
+  - first:
+      213: 4616533838535308922
+    second: tank_turret_90_spaced_21
+  - first:
+      213: -1473838399971946421
+    second: tank_turret_90_spaced_22
+  - first:
+      213: -3910791295732117350
+    second: tank_turret_90_spaced_23
+  - first:
+      213: -1961496977259348582
+    second: tank_turret_90_spaced_24
+  - first:
+      213: 4472052933202898416
+    second: tank_turret_90_spaced_25
+  - first:
+      213: 5685731264020457620
+    second: tank_turret_90_spaced_26
+  - first:
+      213: -3635802330768095191
+    second: tank_turret_90_spaced_27
+  - first:
+      213: 2240975725269397844
+    second: tank_turret_90_spaced_28
+  - first:
+      213: 6435348370426272141
+    second: tank_turret_90_spaced_29
+  - first:
+      213: -2819530910907245320
+    second: tank_turret_90_spaced_30
+  - first:
+      213: -3823131819191658417
+    second: tank_turret_90_spaced_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 27
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314b845dd2a26a630800000000000000
+      internalID: 3937881300522284051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 27
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3da5928c72f6bcd0800000000000000
+      internalID: -2542578323023352513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 27
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46844b7798cefd10800000000000000
+      internalID: 2161385424118122060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 27
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85991d3694d99b6c0800000000000000
+      internalID: -4127094644975494824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 27
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d573facf570d5d0800000000000000
+      internalID: -3039800020343235170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 27
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292a09d090f0ebfa0800000000000000
+      internalID: -5783168339940433262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 27
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949261708a24fee10800000000000000
+      internalID: 2229073630012516681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_7
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 27
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de338bc875cbcd500800000000000000
+      internalID: 422419549275042797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_8
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 27
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c786200dbb6756cc0800000000000000
+      internalID: -3718435368303695748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_9
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 27
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eba715ac983ebb60800000000000000
+      internalID: 7763705053069159401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_10
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 27
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d95a194cb5cf2a0800000000000000
+      internalID: -6702381245618872988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_11
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 27
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c2ae2853114ada0800000000000000
+      internalID: -5934599487440147316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_12
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 27
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a527e6f6c5b926b80800000000000000
+      internalID: -8402983133411118502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_13
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 27
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968473d3d242b8580800000000000000
+      internalID: -8823919268183193495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_14
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 27
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d42301521091e850800000000000000
+      internalID: 6404558553440527573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_15
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 27
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96bb0e949dc0751f0800000000000000
+      internalID: -1056361460208190615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_16
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 27
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd020efdc92dff9a0800000000000000
+      internalID: -6197002991025774369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_17
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 27
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4dbd3f8d39fb220800000000000000
+      internalID: 2503882477854774516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_18
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 27
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ddcbd18335f8a20800000000000000
+      internalID: 3066761371744787722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_19
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 27
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fc2171835fec430800000000000000
+      internalID: 3805248356428730255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_20
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 27
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe22c47a90873e30800000000000000
+      internalID: 4483193354942820027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_21
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 27
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76b7731119311040800000000000000
+      internalID: 4616533838535308922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_22
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 27
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b409751b8cfdb8be0800000000000000
+      internalID: -1473838399971946421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_23
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 27
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90923b69041ab9c0800000000000000
+      internalID: -3910791295732117350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_24
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 27
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d347244ec57c4e0800000000000000
+      internalID: -1961496977259348582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_25
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 27
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd6d44e27cef0e30800000000000000
+      internalID: 4472052933202898416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_26
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 27
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498a548d576c7ee40800000000000000
+      internalID: 5685731264020457620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_27
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 27
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928c7012b090b8dc0800000000000000
+      internalID: -3635802330768095191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_28
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 27
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451b4f68c8b891f10800000000000000
+      internalID: 2240975725269397844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_29
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 27
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8995293f33fe4950800000000000000
+      internalID: 6435348370426272141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_30
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 27
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fcd32633930fd8d0800000000000000
+      internalID: -2819530910907245320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank_turret_90_spaced_31
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 27
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f489693cdd181fac0800000000000000
+      internalID: -3823131819191658417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tank_turret_90_spaced_0: 3937881300522284051
+      tank_turret_90_spaced_1: -2542578323023352513
+      tank_turret_90_spaced_10: -6702381245618872988
+      tank_turret_90_spaced_11: -5934599487440147316
+      tank_turret_90_spaced_12: -8402983133411118502
+      tank_turret_90_spaced_13: -8823919268183193495
+      tank_turret_90_spaced_14: 6404558553440527573
+      tank_turret_90_spaced_15: -1056361460208190615
+      tank_turret_90_spaced_16: -6197002991025774369
+      tank_turret_90_spaced_17: 2503882477854774516
+      tank_turret_90_spaced_18: 3066761371744787722
+      tank_turret_90_spaced_19: 3805248356428730255
+      tank_turret_90_spaced_2: 2161385424118122060
+      tank_turret_90_spaced_20: 4483193354942820027
+      tank_turret_90_spaced_21: 4616533838535308922
+      tank_turret_90_spaced_22: -1473838399971946421
+      tank_turret_90_spaced_23: -3910791295732117350
+      tank_turret_90_spaced_24: -1961496977259348582
+      tank_turret_90_spaced_25: 4472052933202898416
+      tank_turret_90_spaced_26: 5685731264020457620
+      tank_turret_90_spaced_27: -3635802330768095191
+      tank_turret_90_spaced_28: 2240975725269397844
+      tank_turret_90_spaced_29: 6435348370426272141
+      tank_turret_90_spaced_3: -4127094644975494824
+      tank_turret_90_spaced_30: -2819530910907245320
+      tank_turret_90_spaced_31: -3823131819191658417
+      tank_turret_90_spaced_4: -3039800020343235170
+      tank_turret_90_spaced_5: -5783168339940433262
+      tank_turret_90_spaced_6: 2229073630012516681
+      tank_turret_90_spaced_7: 422419549275042797
+      tank_turret_90_spaced_8: -3718435368303695748
+      tank_turret_90_spaced_9: 7763705053069159401
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

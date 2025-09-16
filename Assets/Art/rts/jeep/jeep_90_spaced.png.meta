@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: ce7790403f46bb046b4d55e4cadee2cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4775920783136486745
+    second: jeep_90_spaced_0
+  - first:
+      213: -4115349599537467191
+    second: jeep_90_spaced_1
+  - first:
+      213: -8849443041784624326
+    second: jeep_90_spaced_2
+  - first:
+      213: 5277217939424784753
+    second: jeep_90_spaced_3
+  - first:
+      213: 4609038963923198439
+    second: jeep_90_spaced_4
+  - first:
+      213: -7495556113075491232
+    second: jeep_90_spaced_5
+  - first:
+      213: 7320483626463098252
+    second: jeep_90_spaced_6
+  - first:
+      213: -6260215067061690628
+    second: jeep_90_spaced_7
+  - first:
+      213: -6310636190436627514
+    second: jeep_90_spaced_8
+  - first:
+      213: 5337950925140547421
+    second: jeep_90_spaced_9
+  - first:
+      213: -3124575038537465130
+    second: jeep_90_spaced_10
+  - first:
+      213: 1648125811476900563
+    second: jeep_90_spaced_11
+  - first:
+      213: -6999789012269500351
+    second: jeep_90_spaced_12
+  - first:
+      213: -3183684986848927567
+    second: jeep_90_spaced_13
+  - first:
+      213: 8062046794323585445
+    second: jeep_90_spaced_14
+  - first:
+      213: 1601955216767302504
+    second: jeep_90_spaced_15
+  - first:
+      213: -6503872076293293960
+    second: jeep_90_spaced_16
+  - first:
+      213: -5473778796022865545
+    second: jeep_90_spaced_17
+  - first:
+      213: -4712162201065275319
+    second: jeep_90_spaced_18
+  - first:
+      213: 8610221233970890310
+    second: jeep_90_spaced_19
+  - first:
+      213: -916840745389452457
+    second: jeep_90_spaced_20
+  - first:
+      213: -4897171794758418200
+    second: jeep_90_spaced_21
+  - first:
+      213: -6249445611811373295
+    second: jeep_90_spaced_22
+  - first:
+      213: -4742428741329161223
+    second: jeep_90_spaced_23
+  - first:
+      213: 7246943393739737346
+    second: jeep_90_spaced_24
+  - first:
+      213: 93124829199543992
+    second: jeep_90_spaced_25
+  - first:
+      213: 6035352864302416578
+    second: jeep_90_spaced_26
+  - first:
+      213: 3519865055719891571
+    second: jeep_90_spaced_27
+  - first:
+      213: 8252887879438430538
+    second: jeep_90_spaced_28
+  - first:
+      213: 1357116117472362127
+    second: jeep_90_spaced_29
+  - first:
+      213: 8650600014657689022
+    second: jeep_90_spaced_30
+  - first:
+      213: 7733959467532151192
+    second: jeep_90_spaced_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jeep_90_spaced_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 29
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa8eb50a5588bdb0800000000000000
+      internalID: -4775920783136486745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 29
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0f501e75753e6c0800000000000000
+      internalID: -4115349599537467191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_2
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 29
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b006a9076703580800000000000000
+      internalID: -8849443041784624326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 29
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171bbb981c17c3940800000000000000
+      internalID: 5277217939424784753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 29
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1a398948896ff30800000000000000
+      internalID: 4609038963923198439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_5
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 29
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ea026ad6f6af790800000000000000
+      internalID: -7495556113075491232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_6
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 29
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85756b9215979560800000000000000
+      internalID: 7320483626463098252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_7
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 29
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe5d36809f3f19a0800000000000000
+      internalID: -6260215067061690628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_8
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 29
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cbec4ae1dd1c68a0800000000000000
+      internalID: -6310636190436627514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_9
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 29
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d575871b516341a40800000000000000
+      internalID: 5337950925140547421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_10
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 29
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d20ce1ae8743a4d0800000000000000
+      internalID: -3124575038537465130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_11
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 29
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3daab3281b15fd610800000000000000
+      internalID: 1648125811476900563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_12
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 29
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1487ef4daf0cbde90800000000000000
+      internalID: -6999789012269500351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_13
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 29
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b020225f5741d3d0800000000000000
+      internalID: -3183684986848927567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_14
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 29
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9eb3a48d422ef60800000000000000
+      internalID: 8062046794323585445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_15
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 29
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bbf7938c94b3610800000000000000
+      internalID: 1601955216767302504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_16
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 29
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878b4fb3eca9db5a0800000000000000
+      internalID: -6503872076293293960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_17
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 29
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771edf3bf2b3904b0800000000000000
+      internalID: -5473778796022865545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_18
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 29
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9404b79b1790b9eb0800000000000000
+      internalID: -4712162201065275319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_19
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 29
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6464c58e796ad7770800000000000000
+      internalID: 8610221233970890310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_20
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 29
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753157f133ab643f0800000000000000
+      internalID: -916840745389452457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_21
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 29
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0cc51f230c90cb0800000000000000
+      internalID: -4897171794758418200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_22
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 29
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ffbd8b3528549a0800000000000000
+      internalID: -6249445611811373295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_23
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 29
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3f87caf228f2eb0800000000000000
+      internalID: -4742428741329161223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_24
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 29
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2098833ee90529460800000000000000
+      internalID: 7246943393739737346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_25
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 29
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be253ce988da4100800000000000000
+      internalID: 93124829199543992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_26
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 29
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2c1e21471e1c350800000000000000
+      internalID: 6035352864302416578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_27
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 29
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372ae7f7e9219d030800000000000000
+      internalID: 3519865055719891571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_28
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 29
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41fd09fcc5288270800000000000000
+      internalID: 8252887879438430538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_29
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 29
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8eb5e42be175d210800000000000000
+      internalID: 1357116117472362127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_30
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 29
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb519a761ea1d0870800000000000000
+      internalID: 8650600014657689022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeep_90_spaced_31
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 29
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899e581d82b845b60800000000000000
+      internalID: 7733959467532151192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jeep_90_spaced_0: -4775920783136486745
+      jeep_90_spaced_1: -4115349599537467191
+      jeep_90_spaced_10: -3124575038537465130
+      jeep_90_spaced_11: 1648125811476900563
+      jeep_90_spaced_12: -6999789012269500351
+      jeep_90_spaced_13: -3183684986848927567
+      jeep_90_spaced_14: 8062046794323585445
+      jeep_90_spaced_15: 1601955216767302504
+      jeep_90_spaced_16: -6503872076293293960
+      jeep_90_spaced_17: -5473778796022865545
+      jeep_90_spaced_18: -4712162201065275319
+      jeep_90_spaced_19: 8610221233970890310
+      jeep_90_spaced_2: -8849443041784624326
+      jeep_90_spaced_20: -916840745389452457
+      jeep_90_spaced_21: -4897171794758418200
+      jeep_90_spaced_22: -6249445611811373295
+      jeep_90_spaced_23: -4742428741329161223
+      jeep_90_spaced_24: 7246943393739737346
+      jeep_90_spaced_25: 93124829199543992
+      jeep_90_spaced_26: 6035352864302416578
+      jeep_90_spaced_27: 3519865055719891571
+      jeep_90_spaced_28: 8252887879438430538
+      jeep_90_spaced_29: 1357116117472362127
+      jeep_90_spaced_3: 5277217939424784753
+      jeep_90_spaced_30: 8650600014657689022
+      jeep_90_spaced_31: 7733959467532151192
+      jeep_90_spaced_4: 4609038963923198439
+      jeep_90_spaced_5: -7495556113075491232
+      jeep_90_spaced_6: 7320483626463098252
+      jeep_90_spaced_7: -6260215067061690628
+      jeep_90_spaced_8: -6310636190436627514
+      jeep_90_spaced_9: 5337950925140547421
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

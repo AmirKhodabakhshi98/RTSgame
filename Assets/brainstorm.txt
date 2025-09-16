@@ -1,0 +1,20 @@
+minimap flash when contact or detect enemy, diff color
+show where u clicked for move order
+
+river to shoot over
+forest to hide in
+city to block LoS
+
+ui shows selected units.
+
+LoS show, range show (in one like rews)
+
+some kinda info in ui when building units
+
+
+roadmap: 
+map maker/tile maker whatever. traversable/object/LOS
+
+unit control/movement
+
+unit fire

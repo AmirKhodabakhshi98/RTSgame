@@ -1,0 +1,1794 @@
+fileFormatVersion: 2
+guid: 4c190342dd4ea6645a0009b20bac600c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5337514102437580160
+    second: rocket_tank_body_0_spaced_0
+  - first:
+      213: 1194018664516279263
+    second: rocket_tank_body_0_spaced_1
+  - first:
+      213: -4548337568108344328
+    second: rocket_tank_body_0_spaced_2
+  - first:
+      213: -6928288740010039606
+    second: rocket_tank_body_0_spaced_3
+  - first:
+      213: 9021030614789260099
+    second: rocket_tank_body_0_spaced_4
+  - first:
+      213: 3307046310050132351
+    second: rocket_tank_body_0_spaced_5
+  - first:
+      213: -9040528494832022668
+    second: rocket_tank_body_0_spaced_6
+  - first:
+      213: 8013433893807378186
+    second: rocket_tank_body_0_spaced_7
+  - first:
+      213: -7150124240890241862
+    second: rocket_tank_body_0_spaced_8
+  - first:
+      213: 4124330165054914394
+    second: rocket_tank_body_0_spaced_9
+  - first:
+      213: -8084283313801654069
+    second: rocket_tank_body_0_spaced_10
+  - first:
+      213: 8274104916824711075
+    second: rocket_tank_body_0_spaced_11
+  - first:
+      213: -5049636191465829262
+    second: rocket_tank_body_0_spaced_12
+  - first:
+      213: -4649526518397033506
+    second: rocket_tank_body_0_spaced_13
+  - first:
+      213: -3199804996293017809
+    second: rocket_tank_body_0_spaced_14
+  - first:
+      213: -7324463931460494671
+    second: rocket_tank_body_0_spaced_15
+  - first:
+      213: -8567776938291557294
+    second: rocket_tank_body_0_spaced_16
+  - first:
+      213: -5051763286118106708
+    second: rocket_tank_body_0_spaced_17
+  - first:
+      213: -2345651071783314468
+    second: rocket_tank_body_0_spaced_18
+  - first:
+      213: 4495544770357623829
+    second: rocket_tank_body_0_spaced_19
+  - first:
+      213: -5833066090962416277
+    second: rocket_tank_body_0_spaced_20
+  - first:
+      213: -111303329152063562
+    second: rocket_tank_body_0_spaced_21
+  - first:
+      213: 3982993046471969878
+    second: rocket_tank_body_0_spaced_22
+  - first:
+      213: 140254620862411702
+    second: rocket_tank_body_0_spaced_23
+  - first:
+      213: -6299904379854310503
+    second: rocket_tank_body_0_spaced_24
+  - first:
+      213: -8598789413392379431
+    second: rocket_tank_body_0_spaced_25
+  - first:
+      213: -5462436389087665549
+    second: rocket_tank_body_0_spaced_26
+  - first:
+      213: 3674551968136670421
+    second: rocket_tank_body_0_spaced_27
+  - first:
+      213: -5985241439113061043
+    second: rocket_tank_body_0_spaced_28
+  - first:
+      213: 8965609369606761217
+    second: rocket_tank_body_0_spaced_29
+  - first:
+      213: -2552654776537284380
+    second: rocket_tank_body_0_spaced_30
+  - first:
+      213: 2284592227632138116
+    second: rocket_tank_body_0_spaced_31
+  - first:
+      213: -2824643693126165710
+    second: rocket_tank_body_0_spaced_32
+  - first:
+      213: 3365141526736895401
+    second: rocket_tank_body_0_spaced_33
+  - first:
+      213: -859563291071475050
+    second: rocket_tank_body_0_spaced_34
+  - first:
+      213: -4990280303877680089
+    second: rocket_tank_body_0_spaced_35
+  - first:
+      213: 1468234359602150998
+    second: rocket_tank_body_0_spaced_36
+  - first:
+      213: -7175730586428197314
+    second: rocket_tank_body_0_spaced_37
+  - first:
+      213: -3039337138056342516
+    second: rocket_tank_body_0_spaced_38
+  - first:
+      213: -7713831044913495893
+    second: rocket_tank_body_0_spaced_39
+  - first:
+      213: 1777155509965529960
+    second: rocket_tank_body_0_spaced_40
+  - first:
+      213: 4590217649000303938
+    second: rocket_tank_body_0_spaced_41
+  - first:
+      213: 6802967647486300715
+    second: rocket_tank_body_0_spaced_42
+  - first:
+      213: -3630903670637221756
+    second: rocket_tank_body_0_spaced_43
+  - first:
+      213: -2439958524039843454
+    second: rocket_tank_body_0_spaced_44
+  - first:
+      213: -4812995019252298096
+    second: rocket_tank_body_0_spaced_45
+  - first:
+      213: -3187090909182631461
+    second: rocket_tank_body_0_spaced_46
+  - first:
+      213: 3278904886156893836
+    second: rocket_tank_body_0_spaced_47
+  - first:
+      213: 2681747906117697510
+    second: rocket_tank_body_0_spaced_48
+  - first:
+      213: -1168134896705415623
+    second: rocket_tank_body_0_spaced_49
+  - first:
+      213: 752372566241711613
+    second: rocket_tank_body_0_spaced_50
+  - first:
+      213: 8507042749593175855
+    second: rocket_tank_body_0_spaced_51
+  - first:
+      213: 1329874061742178952
+    second: rocket_tank_body_0_spaced_52
+  - first:
+      213: 6336305949680940157
+    second: rocket_tank_body_0_spaced_53
+  - first:
+      213: -7209122117788349822
+    second: rocket_tank_body_0_spaced_54
+  - first:
+      213: -7299303332027001387
+    second: rocket_tank_body_0_spaced_55
+  - first:
+      213: 3041572113716306506
+    second: rocket_tank_body_0_spaced_56
+  - first:
+      213: 1478390691119660403
+    second: rocket_tank_body_0_spaced_57
+  - first:
+      213: 6571501485833312268
+    second: rocket_tank_body_0_spaced_58
+  - first:
+      213: 3381190280706392592
+    second: rocket_tank_body_0_spaced_59
+  - first:
+      213: -363101173098719166
+    second: rocket_tank_body_0_spaced_60
+  - first:
+      213: -6428722677498277097
+    second: rocket_tank_body_0_spaced_61
+  - first:
+      213: 6298447949198211270
+    second: rocket_tank_body_0_spaced_62
+  - first:
+      213: -3710984472260685679
+    second: rocket_tank_body_0_spaced_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 6
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d0e6bfbc8a21a40800000000000000
+      internalID: 5337514102437580160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 5
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbdda136a1029010800000000000000
+      internalID: 1194018664516279263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 4
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb8656741f01e0c0800000000000000
+      internalID: -4548337568108344328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_3
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 3
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac6ec5e3916c9df90800000000000000
+      internalID: -6928288740010039606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_4
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 2
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34300767c83213d70800000000000000
+      internalID: 9021030614789260099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_5
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71fd46f81df4ed20800000000000000
+      internalID: 3307046310050132351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_6
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 2
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b8db39b37998280800000000000000
+      internalID: -9040528494832022668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_7
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 3
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0fc67f5baf653f60800000000000000
+      internalID: 8013433893807378186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_8
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 3
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abcd3d9c2e7a5cc90800000000000000
+      internalID: -7150124240890241862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_9
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 5
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fb688fe609c3930800000000000000
+      internalID: 4124330165054914394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_10
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 6
+        width: 70
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc01c31982bdecf80800000000000000
+      internalID: -8084283313801654069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_11
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 7
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af56a1759683d270800000000000000
+      internalID: 8274104916824711075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_12
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 10
+        width: 71
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c09b253a61ce9b0800000000000000
+      internalID: -5049636191465829262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_13
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 11
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3af290440997fb0800000000000000
+      internalID: -4649526518397033506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_14
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 14
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f3f652f420893d0800000000000000
+      internalID: -3199804996293017809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_15
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 16
+        width: 65
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bad22b6cd64a5a90800000000000000
+      internalID: -7324463931460494671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_16
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 19
+        width: 63
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c0956c444291980800000000000000
+      internalID: -8567776938291557294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_17
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 16
+        width: 65
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9f1918e0884e9b0800000000000000
+      internalID: -5051763286118106708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_18
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 14
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb575b27c2927fd0800000000000000
+      internalID: -2345651071783314468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_19
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 11
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51cf7057622636e30800000000000000
+      internalID: 4495544770357623829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_20
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 9
+        width: 71
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d0fc09b49cc0fa0800000000000000
+      internalID: -5833066090962416277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_21
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 7
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7a29b3632947ef0800000000000000
+      internalID: -111303329152063562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_22
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 5
+        width: 70
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c00dda21f664730800000000000000
+      internalID: 3982993046471969878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_23
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 4
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b37c96a5d842f100800000000000000
+      internalID: 140254620862411702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_24
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 3
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9933bd7485e3298a0800000000000000
+      internalID: -6299904379854310503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_25
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 2
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d19b5c3696faa880800000000000000
+      internalID: -8598789413392379431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_26
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 2
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372234c9b078134b0800000000000000
+      internalID: -5462436389087665549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_27
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 1
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dcaf71eb81aef230800000000000000
+      internalID: 3674551968136670421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_28
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 1
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4dd7be4f9620fca0800000000000000
+      internalID: -5985241439113061043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_29
+      rect:
+        serializedVersion: 2
+        x: 2273
+        y: 2
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b2356483e3c6c70800000000000000
+      internalID: 8965609369606761217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_30
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 3
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e08a4a5106239cd0800000000000000
+      internalID: -2552654776537284380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_31
+      rect:
+        serializedVersion: 2
+        x: 2434
+        y: 4
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487c1a8d68084bf10800000000000000
+      internalID: 2284592227632138116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_32
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 5
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23bda26d689dcc8d0800000000000000
+      internalID: -2824643693126165710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_33
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 4
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad7118a36263be20800000000000000
+      internalID: 3365141526736895401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_34
+      rect:
+        serializedVersion: 2
+        x: 2666
+        y: 3
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69218bdadb73214f0800000000000000
+      internalID: -859563291071475050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_35
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 2
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7241eb5d086febab0800000000000000
+      internalID: -4990280303877680089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_36
+      rect:
+        serializedVersion: 2
+        x: 2817
+        y: 1
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65efb1bfe57306410800000000000000
+      internalID: 1468234359602150998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_37
+      rect:
+        serializedVersion: 2
+        x: 2893
+        y: 1
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36ba00ec0faa6c90800000000000000
+      internalID: -7175730586428197314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_38
+      rect:
+        serializedVersion: 2
+        x: 2969
+        y: 2
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04df7dd9fa12d5d0800000000000000
+      internalID: -3039337138056342516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_39
+      rect:
+        serializedVersion: 2
+        x: 3046
+        y: 2
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba00d86c887f2f490800000000000000
+      internalID: -7713831044913495893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_40
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 3
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863af124589b9a810800000000000000
+      internalID: 1777155509965529960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_41
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d446ab1aab3bf30800000000000000
+      internalID: 4590217649000303938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_42
+      rect:
+        serializedVersion: 2
+        x: 3278
+        y: 5
+        width: 70
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2255ee180ff86e50800000000000000
+      internalID: 6802967647486300715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_43
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 7
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488a10259507c9dc0800000000000000
+      internalID: -3630903670637221756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_44
+      rect:
+        serializedVersion: 2
+        x: 3433
+        y: 9
+        width: 71
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2813beb56a6832ed0800000000000000
+      internalID: -2439958524039843454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_45
+      rect:
+        serializedVersion: 2
+        x: 3512
+        y: 11
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e0eb3c78ec43db0800000000000000
+      internalID: -4812995019252298096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_46
+      rect:
+        serializedVersion: 2
+        x: 3591
+        y: 14
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1ea4b34bd25c3d0800000000000000
+      internalID: -3187090909182631461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_47
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 16
+        width: 65
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e9caf1f92018d20800000000000000
+      internalID: 3278904886156893836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_48
+      rect:
+        serializedVersion: 2
+        x: 3749
+        y: 19
+        width: 63
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6effa49138b773520800000000000000
+      internalID: 2681747906117697510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_49
+      rect:
+        serializedVersion: 2
+        x: 3826
+        y: 16
+        width: 65
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936d2202083f9cfe0800000000000000
+      internalID: -1168134896705415623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_50
+      rect:
+        serializedVersion: 2
+        x: 3903
+        y: 14
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5169ddcd6f07a00800000000000000
+      internalID: 752372566241711613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_51
+      rect:
+        serializedVersion: 2
+        x: 3980
+        y: 11
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27409afe461f0670800000000000000
+      internalID: 8507042749593175855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_52
+      rect:
+        serializedVersion: 2
+        x: 4057
+        y: 10
+        width: 71
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8820626c969a47210800000000000000
+      internalID: 1329874061742178952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_53
+      rect:
+        serializedVersion: 2
+        x: 4135
+        y: 7
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d743de6a0b41fe750800000000000000
+      internalID: 6336305949680940157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_54
+      rect:
+        serializedVersion: 2
+        x: 4214
+        y: 6
+        width: 70
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a40d221ad04fb90800000000000000
+      internalID: -7209122117788349822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_55
+      rect:
+        serializedVersion: 2
+        x: 4292
+        y: 5
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d594bafa4aa3ba90800000000000000
+      internalID: -7299303332027001387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_56
+      rect:
+        serializedVersion: 2
+        x: 4371
+        y: 3
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a426bc4f8b5d53a20800000000000000
+      internalID: 3041572113716306506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_57
+      rect:
+        serializedVersion: 2
+        x: 4450
+        y: 3
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d7e6f208c448410800000000000000
+      internalID: 1478390691119660403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_58
+      rect:
+        serializedVersion: 2
+        x: 4529
+        y: 2
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08db08b8c9a23b50800000000000000
+      internalID: 6571501485833312268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_59
+      rect:
+        serializedVersion: 2
+        x: 4609
+        y: 2
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012028f55a66cee20800000000000000
+      internalID: 3381190280706392592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_60
+      rect:
+        serializedVersion: 2
+        x: 4689
+        y: 2
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2485ce7286106faf0800000000000000
+      internalID: -363101173098719166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_61
+      rect:
+        serializedVersion: 2
+        x: 4769
+        y: 3
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713973029c698c6a0800000000000000
+      internalID: -6428722677498277097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_62
+      rect:
+        serializedVersion: 2
+        x: 4850
+        y: 4
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c83f380a05986750800000000000000
+      internalID: 6298447949198211270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_tank_body_0_spaced_63
+      rect:
+        serializedVersion: 2
+        x: 4930
+        y: 5
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19059ebb84fef7cc0800000000000000
+      internalID: -3710984472260685679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rocket_tank_body_0_spaced_0: 5337514102437580160
+      rocket_tank_body_0_spaced_1: 1194018664516279263
+      rocket_tank_body_0_spaced_10: -8084283313801654069
+      rocket_tank_body_0_spaced_11: 8274104916824711075
+      rocket_tank_body_0_spaced_12: -5049636191465829262
+      rocket_tank_body_0_spaced_13: -4649526518397033506
+      rocket_tank_body_0_spaced_14: -3199804996293017809
+      rocket_tank_body_0_spaced_15: -7324463931460494671
+      rocket_tank_body_0_spaced_16: -8567776938291557294
+      rocket_tank_body_0_spaced_17: -5051763286118106708
+      rocket_tank_body_0_spaced_18: -2345651071783314468
+      rocket_tank_body_0_spaced_19: 4495544770357623829
+      rocket_tank_body_0_spaced_2: -4548337568108344328
+      rocket_tank_body_0_spaced_20: -5833066090962416277
+      rocket_tank_body_0_spaced_21: -111303329152063562
+      rocket_tank_body_0_spaced_22: 3982993046471969878
+      rocket_tank_body_0_spaced_23: 140254620862411702
+      rocket_tank_body_0_spaced_24: -6299904379854310503
+      rocket_tank_body_0_spaced_25: -8598789413392379431
+      rocket_tank_body_0_spaced_26: -5462436389087665549
+      rocket_tank_body_0_spaced_27: 3674551968136670421
+      rocket_tank_body_0_spaced_28: -5985241439113061043
+      rocket_tank_body_0_spaced_29: 8965609369606761217
+      rocket_tank_body_0_spaced_3: -6928288740010039606
+      rocket_tank_body_0_spaced_30: -2552654776537284380
+      rocket_tank_body_0_spaced_31: 2284592227632138116
+      rocket_tank_body_0_spaced_32: -2824643693126165710
+      rocket_tank_body_0_spaced_33: 3365141526736895401
+      rocket_tank_body_0_spaced_34: -859563291071475050
+      rocket_tank_body_0_spaced_35: -4990280303877680089
+      rocket_tank_body_0_spaced_36: 1468234359602150998
+      rocket_tank_body_0_spaced_37: -7175730586428197314
+      rocket_tank_body_0_spaced_38: -3039337138056342516
+      rocket_tank_body_0_spaced_39: -7713831044913495893
+      rocket_tank_body_0_spaced_4: 9021030614789260099
+      rocket_tank_body_0_spaced_40: 1777155509965529960
+      rocket_tank_body_0_spaced_41: 4590217649000303938
+      rocket_tank_body_0_spaced_42: 6802967647486300715
+      rocket_tank_body_0_spaced_43: -3630903670637221756
+      rocket_tank_body_0_spaced_44: -2439958524039843454
+      rocket_tank_body_0_spaced_45: -4812995019252298096
+      rocket_tank_body_0_spaced_46: -3187090909182631461
+      rocket_tank_body_0_spaced_47: 3278904886156893836
+      rocket_tank_body_0_spaced_48: 2681747906117697510
+      rocket_tank_body_0_spaced_49: -1168134896705415623
+      rocket_tank_body_0_spaced_5: 3307046310050132351
+      rocket_tank_body_0_spaced_50: 752372566241711613
+      rocket_tank_body_0_spaced_51: 8507042749593175855
+      rocket_tank_body_0_spaced_52: 1329874061742178952
+      rocket_tank_body_0_spaced_53: 6336305949680940157
+      rocket_tank_body_0_spaced_54: -7209122117788349822
+      rocket_tank_body_0_spaced_55: -7299303332027001387
+      rocket_tank_body_0_spaced_56: 3041572113716306506
+      rocket_tank_body_0_spaced_57: 1478390691119660403
+      rocket_tank_body_0_spaced_58: 6571501485833312268
+      rocket_tank_body_0_spaced_59: 3381190280706392592
+      rocket_tank_body_0_spaced_6: -9040528494832022668
+      rocket_tank_body_0_spaced_60: -363101173098719166
+      rocket_tank_body_0_spaced_61: -6428722677498277097
+      rocket_tank_body_0_spaced_62: 6298447949198211270
+      rocket_tank_body_0_spaced_63: -3710984472260685679
+      rocket_tank_body_0_spaced_7: 8013433893807378186
+      rocket_tank_body_0_spaced_8: -7150124240890241862
+      rocket_tank_body_0_spaced_9: 4124330165054914394
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
