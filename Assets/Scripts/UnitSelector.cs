@@ -1,75 +1,153 @@
 using UnityEngine;
-using System.Collections.Generic;
 
 public class UnitSelector : MonoBehaviour
-
 {
     [SerializeField] private RectTransform selectionBox;
 
     private Vector2 startPos;
     private Vector2 endPos;
 
+    [SerializeField] private float clickThreshold = 6f; // pixels to decide click vs drag
+
     private void Start()
     {
         selectionBox.gameObject.SetActive(false);
     }
-//klickar nån annanstans d som ny drag så den fattar att den ska unselecta
+
     private void Update()
     {
-        // Start drag
         if (Input.GetMouseButtonDown(0))
         {
             startPos = Input.mousePosition;
+            endPos = startPos;
             selectionBox.gameObject.SetActive(true);
+            DrawSelection();
         }
 
-        // Update drag
         if (Input.GetMouseButton(0))
         {
             endPos = Input.mousePosition;
             DrawSelection();
         }
 
-        // Release
         if (Input.GetMouseButtonUp(0))
         {
-            SelectUnits();
+            endPos = Input.mousePosition;
+
+            if (Vector2.Distance(startPos, endPos) < clickThreshold)
+                SelectByClick();
+            else
+                SelectByBox();
+
             selectionBox.gameObject.SetActive(false);
         }
     }
 
     private void DrawSelection()
     {
-        Vector2 boxStart = startPos;
-        Vector2 boxEnd = endPos;
-        Vector2 center = (boxStart + boxEnd) / 2;
-
+        Vector2 center = (startPos + endPos) * 0.5f;
         selectionBox.position = center;
-
-        float sizeX = Mathf.Abs(boxStart.x - boxEnd.x);
-        float sizeY = Mathf.Abs(boxStart.y - boxEnd.y);
-
-        selectionBox.sizeDelta = new Vector2(sizeX, sizeY);
+        selectionBox.sizeDelta = new Vector2(Mathf.Abs(startPos.x - endPos.x), Mathf.Abs(startPos.y - endPos.y));
     }
 
-    private void SelectUnits()
+    private void SelectByClick()
     {
-        Vector2 min = Vector2.Min(startPos, endPos);
-        Vector2 max = Vector2.Max(startPos, endPos);
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
 
-        foreach (var unit in GameObject.FindGameObjectsWithTag("PlayerUnit"))
+        GameObject hitRoot = null;
+        if (Physics.Raycast(ray, out hit))
         {
-            Vector3 screenPos = Camera.main.WorldToScreenPoint(unit.transform.position);
-            if (screenPos.x > min.x && screenPos.x < max.x &&
-                screenPos.y > min.y && screenPos.y < max.y)
+            // If collider is on a child, climb to the PlayerUnit root
+            var unit = hit.collider.GetComponentInParent<PlayerUnit>();
+            if (unit != null) hitRoot = unit.gameObject;
+        }
+
+        bool selectedAny = false;
+        foreach (var go in GameObject.FindGameObjectsWithTag("PlayerUnit"))
+        {
+            var unit = go.GetComponent<PlayerUnit>();
+            if (!unit) continue;
+
+            bool selected = (hitRoot != null && hitRoot == go);
+            unit.SetSelected(selected);
+            if (selected) selectedAny = true;
+        }
+
+        if (!selectedAny)
+        {
+            // Clicked empty space -> clear selection
+            foreach (var go in GameObject.FindGameObjectsWithTag("PlayerUnit"))
             {
-                unit.GetComponent<PlayerUnit>().SetSelected(true);
-            }
-            else
-            {
-                unit.GetComponent<PlayerUnit>().SetSelected(false);
+                var unit = go.GetComponent<PlayerUnit>();
+                if (unit) unit.SetSelected(false);
             }
         }
-        
+    }
+
+    private void SelectByBox()
+    {
+        // Selection rect in screen space
+        Vector2 selMin = Vector2.Min(startPos, endPos);
+        Vector2 selMax = Vector2.Max(startPos, endPos);
+
+        foreach (var go in GameObject.FindGameObjectsWithTag("PlayerUnit"))
+        {
+            var unit = go.GetComponent<PlayerUnit>();
+            if (!unit) continue;
+
+            // Use Collider bounds (works for Box/Sphere/Capsule/Mesh colliders)
+            var col = go.GetComponentInChildren<Collider>();
+            if (!col) { unit.SetSelected(false); continue; }
+
+            Bounds b = col.bounds;
+
+            // Project the 8 world-space corners of the bounds to screen space
+            Vector3[] corners =
+            {
+                new Vector3(b.min.x, b.min.y, b.min.z),
+                new Vector3(b.min.x, b.min.y, b.max.z),
+                new Vector3(b.min.x, b.max.y, b.min.z),
+                new Vector3(b.min.x, b.max.y, b.max.z),
+                new Vector3(b.max.x, b.min.y, b.min.z),
+                new Vector3(b.max.x, b.min.y, b.max.z),
+                new Vector3(b.max.x, b.max.y, b.min.z),
+                new Vector3(b.max.x, b.max.y, b.max.z),
+            };
+
+            bool anyInFront = false;
+            float cMinX = float.PositiveInfinity, cMinY = float.PositiveInfinity;
+            float cMaxX = float.NegativeInfinity, cMaxY = float.NegativeInfinity;
+
+            for (int i = 0; i < corners.Length; i++)
+            {
+                Vector3 sp = Camera.main.WorldToScreenPoint(corners[i]);
+                // Only consider points in front of the camera
+                if (sp.z <= 0f) continue;
+                anyInFront = true;
+                if (sp.x < cMinX) cMinX = sp.x;
+                if (sp.y < cMinY) cMinY = sp.y;
+                if (sp.x > cMaxX) cMaxX = sp.x;
+                if (sp.y > cMaxY) cMaxY = sp.y;
+            }
+
+            if (!anyInFront)
+            {
+                unit.SetSelected(false);
+                continue;
+            }
+
+            // Now we have the collider's screen-space AABB: [cMinX..cMaxX] x [cMinY..cMaxY]
+
+            // INTERSECTION test (select if rectangles overlap at all)
+            bool overlap =
+                !(selMax.x < cMinX || selMin.x > cMaxX || selMax.y < cMinY || selMin.y > cMaxY);
+
+            // If you prefer "fully inside" selection, use this instead:
+            // bool fullyInside = selMin.x <= cMinX && selMax.x >= cMaxX &&
+            //                    selMin.y <= cMinY && selMax.y >= cMaxY;
+
+            unit.SetSelected(overlap);
+        }
     }
 }
