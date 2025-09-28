@@ -52,13 +52,13 @@ public class UnitSelector : MonoBehaviour
 
     private void SelectByClick()
     {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hit;
+        Vector2 mouseWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
+        RaycastHit2D hit = Physics2D.Raycast(mouseWorld, Vector2.zero);
         GameObject hitRoot = null;
-        if (Physics.Raycast(ray, out hit))
+
+        if (hit.collider != null)
         {
-            // If collider is on a child, climb to the PlayerUnit root
             var unit = hit.collider.GetComponentInParent<PlayerUnit>();
             if (unit != null) hitRoot = unit.gameObject;
         }
@@ -96,23 +96,18 @@ public class UnitSelector : MonoBehaviour
             var unit = go.GetComponent<PlayerUnit>();
             if (!unit) continue;
 
-            // Use Collider bounds (works for Box/Sphere/Capsule/Mesh colliders)
-            var col = go.GetComponentInChildren<Collider>();
+            var col = go.GetComponentInChildren<Collider2D>();
             if (!col) { unit.SetSelected(false); continue; }
 
             Bounds b = col.bounds;
 
-            // Project the 8 world-space corners of the bounds to screen space
+            // 4 world-space corners of collider bounds
             Vector3[] corners =
             {
-                new Vector3(b.min.x, b.min.y, b.min.z),
-                new Vector3(b.min.x, b.min.y, b.max.z),
-                new Vector3(b.min.x, b.max.y, b.min.z),
-                new Vector3(b.min.x, b.max.y, b.max.z),
-                new Vector3(b.max.x, b.min.y, b.min.z),
-                new Vector3(b.max.x, b.min.y, b.max.z),
-                new Vector3(b.max.x, b.max.y, b.min.z),
-                new Vector3(b.max.x, b.max.y, b.max.z),
+                new Vector3(b.min.x, b.min.y, 0),
+                new Vector3(b.min.x, b.max.y, 0),
+                new Vector3(b.max.x, b.min.y, 0),
+                new Vector3(b.max.x, b.max.y, 0),
             };
 
             bool anyInFront = false;
@@ -122,8 +117,7 @@ public class UnitSelector : MonoBehaviour
             for (int i = 0; i < corners.Length; i++)
             {
                 Vector3 sp = Camera.main.WorldToScreenPoint(corners[i]);
-                // Only consider points in front of the camera
-                if (sp.z <= 0f) continue;
+                if (sp.z <= 0f) continue; // behind camera
                 anyInFront = true;
                 if (sp.x < cMinX) cMinX = sp.x;
                 if (sp.y < cMinY) cMinY = sp.y;
@@ -137,15 +131,9 @@ public class UnitSelector : MonoBehaviour
                 continue;
             }
 
-            // Now we have the collider's screen-space AABB: [cMinX..cMaxX] x [cMinY..cMaxY]
-
-            // INTERSECTION test (select if rectangles overlap at all)
+            // Collider's screen-space AABB
             bool overlap =
                 !(selMax.x < cMinX || selMin.x > cMaxX || selMax.y < cMinY || selMin.y > cMaxY);
-
-            // If you prefer "fully inside" selection, use this instead:
-            // bool fullyInside = selMin.x <= cMinX && selMax.x >= cMaxX &&
-            //                    selMin.y <= cMinY && selMax.y >= cMaxY;
 
             unit.SetSelected(overlap);
         }
