@@ -16,7 +16,7 @@ public class UnitSelector : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0)) 
         {
             startPos = Input.mousePosition;
             endPos = startPos;
@@ -41,6 +41,8 @@ public class UnitSelector : MonoBehaviour
 
             selectionBox.gameObject.SetActive(false);
         }
+
+
     }
 
     private void DrawSelection()
@@ -57,7 +59,8 @@ public class UnitSelector : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(mouseWorld, Vector2.zero);
         GameObject hitRoot = null;
 
-        if (hit.collider != null)
+        //if (hit.collider != null)
+        if (hit.collider != null && !hit.collider.isTrigger)
         {
             var unit = hit.collider.GetComponentInParent<PlayerUnit>();
             if (unit != null) hitRoot = unit.gameObject;
@@ -74,15 +77,16 @@ public class UnitSelector : MonoBehaviour
             if (selected) selectedAny = true;
         }
 
-        if (!selectedAny)
-        {
-            // Clicked empty space -> clear selection
-            foreach (var go in GameObject.FindGameObjectsWithTag("PlayerUnit"))
-            {
-                var unit = go.GetComponent<PlayerUnit>();
-                if (unit) unit.SetSelected(false);
+        if (!selectedAny)             // Clicked empty space -> clear selection
+
+       //if (Input.GetMouseButtonDown(1) || !selectedAny)  // rioght click deseclt
+           {
+                foreach (var go in GameObject.FindGameObjectsWithTag("PlayerUnit"))
+                {
+                    var unit = go.GetComponent<PlayerUnit>();
+                    if (unit) unit.SetSelected(false);
+                }
             }
-        }
     }
 
     private void SelectByBox()

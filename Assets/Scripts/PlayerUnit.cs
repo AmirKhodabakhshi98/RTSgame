@@ -8,6 +8,12 @@ public class PlayerUnit : MonoBehaviour
     private Transform target;
     private SpriteRenderer sr;
     private bool selected = false;
+    public float attackRange = 5f;
+    
+    [SerializeField] private GameObject SelectedEffect;
+    [SerializeField] private GameObject RangeEffect;
+
+    
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -17,9 +23,11 @@ public class PlayerUnit : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //if units start moving weirdly on spawn look here XD
-        target = new GameObject("ClickMarker").transform;
+        //if units start moving weirdly on spawn look here XD //
         
+        target = new GameObject("ClickMarker").transform;
+        RangeEffect.transform.localScale = new Vector3(attackRange * 2, attackRange * 2, 1);
+
     }
 
     // Update is called once per frame
@@ -27,7 +35,7 @@ public class PlayerUnit : MonoBehaviour
     {
         if (selected)
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(1))
             {
                 Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 mouseWorldPos.z = 0f;
@@ -40,14 +48,16 @@ public class PlayerUnit : MonoBehaviour
     }
     
 
+    
 
 
 
-    [SerializeField] private GameObject SelectedEffect;
 
     public void SetSelected(bool isSelected)
     {
         selected = isSelected;
         SelectedEffect.SetActive(selected);
+        RangeEffect.SetActive(selected);
+        
     }
 }

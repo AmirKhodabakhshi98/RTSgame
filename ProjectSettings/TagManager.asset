@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - PlayerUnit
+  - EnemyUnit
   layers:
   - Default
   - TransparentFX
@@ -14,7 +15,7 @@ TagManager:
   - UI
   - Non-Traversable
   - LoS Blocker
-  - 
+  - Units
   - 
   - 
   - 
@@ -41,6 +42,30 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Non-Traversable invisible
+    uniqueID: 2754882171
+    locked: 0
+  - name: Ground
+    uniqueID: 403576753
+    locked: 0
+  - name: NT, fire over
+    uniqueID: 3761237051
+    locked: 0
+  - name: Range effect
+    uniqueID: 4280890963
+    locked: 0
+  - name: LoS Blockers
+    uniqueID: 3077088527
+    locked: 0
+  - name: Units
+    uniqueID: 3011678127
+    locked: 0
+  - name: SelectedEffect
+    uniqueID: 56010277
+    locked: 0
+  - name: Effects
+    uniqueID: 1058737927
     locked: 0
   m_RenderingLayers:
   - Default
