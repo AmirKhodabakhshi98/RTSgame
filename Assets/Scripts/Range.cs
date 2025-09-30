@@ -20,6 +20,7 @@ public class Range : MonoBehaviour
             //fire
         }
     }
+    
     void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("EnemyUnit"))
