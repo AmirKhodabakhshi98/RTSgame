@@ -7,7 +7,7 @@ public class Bullet : MonoBehaviour
     public float range;
     public int damage;
     public float speed;
-
+    
     private Vector2 startPos;
     private float travelledDistance;
     private Rigidbody2D rb;
@@ -49,17 +49,12 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
-        if (collision.CompareTag("EnemyUnit") || collision.CompareTag("Obstacle") )
-        {
-          //  DisableObject();    
-        }
-
         switch (collision.tag)
         {
             case "EnemyUnit":
                 //damage
-                //DisableObject();
+                collision.GetComponent<EnemyUnit>().changeHealth(-damage);
+                //DEBUG here if we get weird behaviour where we collide once enemy is dead or something 
                 Destroy(gameObject);
                 break;
             

@@ -3,7 +3,8 @@ using UnityEngine;
 
 public class PlayerUnit : MonoBehaviour
 {
-    
+    public float health = 100;
+    public float maxHealth = 100;
     private AIDestinationSetter ads;
     private Transform target;
     private SpriteRenderer sr;
@@ -47,9 +48,23 @@ public class PlayerUnit : MonoBehaviour
         }
         
     }
-    
 
-    
+
+    public void changeHealth(float amount)
+    {
+        health += amount;
+        if (health > maxHealth)
+        {
+            health = maxHealth;
+            //do sth for healing
+        }
+
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+
+        }
+    }
 
 
 
