@@ -4,7 +4,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    private float range;
+    public float range;
     public int damage;
     public float speed;
 
@@ -19,14 +19,14 @@ public class Bullet : MonoBehaviour
 
     public void Initialize()
     {
-        range = GetComponentInParent<PlayerUnit>().attackRange;
+        //range = GetComponentInParent<PlayerUnit>().attackRange;
         startPos = transform.position;
         rb.linearVelocity = transform.up * speed;
     }
 
     void Start()
     {
-        range = GetComponentInParent<PlayerUnit>().attackRange;
+        //range = GetComponentInParent<PlayerUnit>().attackRange;
         
     }
 
@@ -49,21 +49,26 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+
         if (collision.CompareTag("EnemyUnit") || collision.CompareTag("Obstacle") )
         {
-            DisableObject();    
+          //  DisableObject();    
         }
 
         switch (collision.tag)
         {
             case "EnemyUnit":
                 //damage
-                DisableObject();
+                //DisableObject();
+                Destroy(gameObject);
                 break;
             
-            case "Obstacle":
-                DisableObject();;
+            case "Obstacle": 
+                //DisableObject();
+                Destroy(gameObject);
+                break;
+            default:
+                Physics2D.IgnoreCollision(collision.GetComponent<Collider2D>(), GetComponent<Collider2D>());
                 break;
         }
         
