@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 6797775174313171989}
   - component: {fileID: 8093475987955217472}
   - component: {fileID: 1446461458407408083}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlayerUnit
   m_TagString: PlayerUnit
   m_Icon: {fileID: 0}
@@ -274,7 +274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4782898835220265347}
   - component: {fileID: 7366109745378253659}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Range
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -420,7 +420,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1068446463492514573}
   - component: {fileID: 175763365089239506}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlayerUnitSelectedEffect
   m_TagString: PlayerUnit
   m_Icon: {fileID: 0}
@@ -724,7 +724,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9041723717709915872}
   - component: {fileID: 3676633034868557249}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RangeEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}

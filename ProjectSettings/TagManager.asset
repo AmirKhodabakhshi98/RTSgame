@@ -59,11 +59,11 @@ TagManager:
   - name: LoS Blockers
     uniqueID: 3077088527
     locked: 0
-  - name: Units
-    uniqueID: 3011678127
-    locked: 0
   - name: SelectedEffect
     uniqueID: 56010277
+    locked: 0
+  - name: Units
+    uniqueID: 3011678127
     locked: 0
   - name: Effects
     uniqueID: 1058737927

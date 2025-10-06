@@ -17,7 +17,7 @@ public class Unit : MonoBehaviour
     
     [SerializeField] private GameObject SelectedEffect;
     [SerializeField] private GameObject RangeEffect;
-
+    [SerializeField] private GameObject RangeIndicator;
     private string myTag;
     private string enemyTag;
     private void Awake()
@@ -51,15 +51,7 @@ public class Unit : MonoBehaviour
 
     }
 
-    public string getMyTag()
-    {
-        return myTag;
-    }
 
-    public string getEnemyTag()
-    {
-        return enemyTag;
-    }
 
     // Update is called once per frame
     void Update()
@@ -101,7 +93,20 @@ public class Unit : MonoBehaviour
     {
         selected = isSelected;
         SelectedEffect.SetActive(selected);
-        RangeEffect.SetActive(selected);
+        RangeIndicator.GetComponent<RangeIndicator>().setSelected(isSelected);
+      //  RangeEffect.SetActive(selected);
         
+    }
+    
+    
+    
+    public string getMyTag()
+    {
+        return myTag;
+    }
+
+    public string getEnemyTag()
+    {
+        return enemyTag;
     }
 }
