@@ -6,18 +6,20 @@ public class TurretAim : MonoBehaviour
     
     public float rotationSpeed = 5f;   
     private float range;
-    public string enemyTag = "EnemyUnit";
     public GameObject bulletPrefab;
     private Transform currentTarget;
     public GameObject barrel;
     public float fireRate = 5f;
     private float fireTimer = 0f;
-
+    private string myTag;
+    private string enemyTag;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        range = GetComponentInParent<PlayerUnit>().attackRange;
+        range = GetComponentInParent<Unit>().attackRange;
+        myTag = GetComponentInParent<Unit>().getMyTag();
+        enemyTag = GetComponentInParent<Unit>().getEnemyTag();
         
     }
 
@@ -48,7 +50,7 @@ public class TurretAim : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab);
         bullet.transform.position = barrel.transform.position;
         bullet.transform.localRotation = barrel.transform.rotation;
-        bullet.GetComponent<Bullet>().Initialize();
+        bullet.GetComponent<Bullet>().Initialize(range, myTag, enemyTag);
         
     }
 

@@ -19,7 +19,7 @@ public class Bullet : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    public void Initialize(int r, string mt, string et)
+    public void Initialize(float r, string mt, string et)
     {
         range = r;
         myTag = mt;
@@ -27,6 +27,7 @@ public class Bullet : MonoBehaviour
         
         startPos = transform.position;
         rb.linearVelocity = transform.up * speed;
+        
     }
 
 
@@ -45,6 +46,7 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+  /*
         switch (collision.tag)
         {
             case enemyTag:
@@ -62,7 +64,7 @@ public class Bullet : MonoBehaviour
                 Physics2D.IgnoreCollision(collision.GetComponent<Collider2D>(), GetComponent<Collider2D>());
                 break;
         }
-
+*/
         if (collision.CompareTag(enemyTag))
         {
             collision.GetComponent<Unit>().changeHealth(-damage);

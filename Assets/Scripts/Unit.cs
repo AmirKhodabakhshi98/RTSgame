@@ -1,7 +1,7 @@
 using Pathfinding;
 using UnityEngine;
 
-public class PlayerUnit : MonoBehaviour
+public class Unit : MonoBehaviour
 {
     public float health = 100;
     public float maxHealth = 100;
@@ -20,13 +20,7 @@ public class PlayerUnit : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
         ads = GetComponent<AIDestinationSetter>();
-    }
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        //if units start moving weirdly on spawn look here XD //
-
+        
         if (gameObject.CompareTag("EnemyUnit"))
         {
             myTag = gameObject.tag;
@@ -34,14 +28,34 @@ public class PlayerUnit : MonoBehaviour
         }else if (gameObject.CompareTag("PlayerUnit"))
         {
             myTag = gameObject.tag;
-            enemyTag = "PlayerUnit";
+            enemyTag = "EnemyUnit";
+        }
+        
+    }
+    
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        //if units start moving weirdly on spawn look here XD //
+
+        if(gameObject.CompareTag("PlayerUnit"))
+        {
             target = new GameObject("ClickMarker").transform;
             RangeEffect.transform.localScale = new Vector3(attackRange * 2, attackRange * 2, 1);
         }
 
 
     }
-    
+
+    public string getMyTag()
+    {
+        return myTag;
+    }
+
+    public string getEnemyTag()
+    {
+        return enemyTag;
+    }
 
     // Update is called once per frame
     void Update()
@@ -54,8 +68,6 @@ public class PlayerUnit : MonoBehaviour
                 mouseWorldPos.z = 0f;
                 target.position = mouseWorldPos;
                 ads.target = target;
-                
-
             }
         }
         

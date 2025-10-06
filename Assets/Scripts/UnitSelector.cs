@@ -62,14 +62,14 @@ public class UnitSelector : MonoBehaviour
         //if (hit.collider != null)
         if (hit.collider != null && !hit.collider.isTrigger)
         {
-            var unit = hit.collider.GetComponentInParent<PlayerUnit>();
+            var unit = hit.collider.GetComponentInParent<Unit>();
             if (unit != null) hitRoot = unit.gameObject;
         }
 
         bool selectedAny = false;
         foreach (var go in GameObject.FindGameObjectsWithTag("PlayerUnit"))
         {
-            var unit = go.GetComponent<PlayerUnit>();
+            var unit = go.GetComponent<Unit>();
             if (!unit) continue;
 
             bool selected = (hitRoot != null && hitRoot == go);
@@ -83,7 +83,7 @@ public class UnitSelector : MonoBehaviour
            {
                 foreach (var go in GameObject.FindGameObjectsWithTag("PlayerUnit"))
                 {
-                    var unit = go.GetComponent<PlayerUnit>();
+                    var unit = go.GetComponent<Unit>();
                     if (unit) unit.SetSelected(false);
                 }
             }
@@ -97,7 +97,7 @@ public class UnitSelector : MonoBehaviour
 
         foreach (var go in GameObject.FindGameObjectsWithTag("PlayerUnit"))
         {
-            var unit = go.GetComponent<PlayerUnit>();
+            var unit = go.GetComponent<Unit>();
             if (!unit) continue;
 
             var col = go.GetComponentInChildren<Collider2D>();

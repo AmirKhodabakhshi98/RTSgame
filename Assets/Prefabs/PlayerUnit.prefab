@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5952583869503882531}
-  - component: {fileID: 809580832980629540}
   - component: {fileID: 3474883835447125169}
   - component: {fileID: 4583780508180736417}
   - component: {fileID: 4533786791461834344}
@@ -44,18 +43,6 @@ Transform:
   - {fileID: 3425093031745824586}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &809580832980629540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2366801607413652597}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 901140103e073374abc84bb88f8c149d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UnitMovement
 --- !u!114 &3474883835447125169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,7 +270,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4782898835220265347}
   - component: {fileID: 7366109745378253659}
-  - component: {fileID: 9068385643915750507}
   m_Layer: 0
   m_Name: Range
   m_TagString: Untagged
@@ -342,18 +328,6 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 5
---- !u!114 &9068385643915750507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2446108589894840461}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f905cefa035ca504d805afa720a93522, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!1 &3937905379009764113
 GameObject:
   m_ObjectHideFlags: 0
@@ -363,7 +337,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1741617521481012143}
-  - component: {fileID: 205623605179065421}
   m_Layer: 8
   m_Name: Barrel
   m_TagString: Untagged
@@ -386,21 +359,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7975404945644669158}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &205623605179065421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3937905379009764113}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1db82e993c922d944af5787c050b0950, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Bullet
-  range: 0
-  damage: 10
-  speed: 5
 --- !u!1 &5185324758743226422
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,7 +405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   rotationSpeed: 100
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 857193983207096278, guid: b0ffeafc23cd387428fd4e7ff63ed1c9, type: 3}
   barrel: {fileID: 3937905379009764113}
   fireRate: 2
 --- !u!1 &5591798787473970401
