@@ -6,7 +6,7 @@ public class TurretAim : MonoBehaviour
     
     public float rotationSpeed = 5f;   
     private float range;
-    private string enemyTag = "EnemyUnit";
+    public string enemyTag = "EnemyUnit";
     public GameObject bulletPrefab;
     private Transform currentTarget;
     public GameObject barrel;
@@ -18,6 +18,7 @@ public class TurretAim : MonoBehaviour
     void Start()
     {
         range = GetComponentInParent<PlayerUnit>().attackRange;
+        
     }
 
     // Update is called once per frame

@@ -14,7 +14,8 @@ public class PlayerUnit : MonoBehaviour
     [SerializeField] private GameObject SelectedEffect;
     [SerializeField] private GameObject RangeEffect;
 
-    
+    private string myTag;
+    private string enemyTag;
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -25,11 +26,22 @@ public class PlayerUnit : MonoBehaviour
     void Start()
     {
         //if units start moving weirdly on spawn look here XD //
-        
-        target = new GameObject("ClickMarker").transform;
-        RangeEffect.transform.localScale = new Vector3(attackRange * 2, attackRange * 2, 1);
+
+        if (gameObject.CompareTag("EnemyUnit"))
+        {
+            myTag = gameObject.tag;
+            enemyTag = "PlayerUnit";
+        }else if (gameObject.CompareTag("PlayerUnit"))
+        {
+            myTag = gameObject.tag;
+            enemyTag = "PlayerUnit";
+            target = new GameObject("ClickMarker").transform;
+            RangeEffect.transform.localScale = new Vector3(attackRange * 2, attackRange * 2, 1);
+        }
+
 
     }
+    
 
     // Update is called once per frame
     void Update()
