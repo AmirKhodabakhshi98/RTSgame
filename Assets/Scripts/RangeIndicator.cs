@@ -35,24 +35,34 @@ public class RangeIndicator : MonoBehaviour
     {
         range = GetComponentInParent<Unit>().attackRange;
         lastPos = transform.position;
+        DrawRangeRing();
+        lr.enabled = false;
     }
 
     private Vector3 lastPos;
-    void Update()
+    void FixedUpdate()
     {
-        if (selected )//|| transform.position != lastPos)
+        if (selected)
         {
-            /*
-            updateTimer -= Time.deltaTime;
-            if (updateTimer <= 0f)
-            {
-                updateTimer = updateInterval;
-                DrawRangeRing();
-                lastPos = transform.position;
+            lr.enabled = true;
+            if(transform.position != lastPos){
+
+
+                updateTimer -= Time.deltaTime;
+                if (updateTimer <= 0f)
+                {
+                    updateTimer = updateInterval;
+                    DrawRangeRing();
+                    lastPos = transform.position;
+                }
+
+                // UpdateTargetPoints();
+                // SmoothUpdateLine();
             }
-            */
-            UpdateTargetPoints();
-            SmoothUpdateLine();
+        }
+        else
+        {
+            lr.enabled = false;
         }
 
     }
