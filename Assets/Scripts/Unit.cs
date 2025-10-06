@@ -10,6 +10,10 @@ public class Unit : MonoBehaviour
     private SpriteRenderer sr;
     private bool selected = false;
     public float attackRange = 5f;
+    public float fireRate = 5f;
+    public float turretRotationSpeed = 5f ;
+    public int damage = 10;
+    public float bulletSpeed = 5f;
     
     [SerializeField] private GameObject SelectedEffect;
     [SerializeField] private GameObject RangeEffect;

@@ -4,23 +4,29 @@ using UnityEngine;
 public class TurretAim : MonoBehaviour
 {
     
-    public float rotationSpeed = 5f;   
+    private float rotationSpeed;   
     private float range;
     public GameObject bulletPrefab;
     private Transform currentTarget;
     public GameObject barrel;
-    public float fireRate = 5f;
+    private float fireRate;
     private float fireTimer = 0f;
     private string myTag;
     private string enemyTag;
     
+    private int damage;
+    private float bulletSpeed;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        range = GetComponentInParent<Unit>().attackRange;
-        myTag = GetComponentInParent<Unit>().getMyTag();
-        enemyTag = GetComponentInParent<Unit>().getEnemyTag();
-        
+        Unit parent = GetComponentInParent<Unit>();
+        range = parent.attackRange;
+        myTag = parent.getMyTag();
+        enemyTag = parent.getEnemyTag();
+        fireRate = parent.fireRate;
+        rotationSpeed = parent.turretRotationSpeed;
+        damage = parent.damage;
+        bulletSpeed = parent.bulletSpeed;
     }
 
     // Update is called once per frame
@@ -50,7 +56,7 @@ public class TurretAim : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab);
         bullet.transform.position = barrel.transform.position;
         bullet.transform.localRotation = barrel.transform.rotation;
-        bullet.GetComponent<Bullet>().Initialize(range, myTag, enemyTag);
+        bullet.GetComponent<Bullet>().Initialize(range, myTag, enemyTag, damage, bulletSpeed);
         
     }
 
