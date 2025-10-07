@@ -541,10 +541,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerUnit
       objectReference: {fileID: 0}
+    - target: {fileID: 2446108589894840461, guid: 7be926679d0291a47a6651f1349d7247, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3474883835447125169, guid: 7be926679d0291a47a6651f1349d7247, type: 3}
       propertyPath: RangeIndicator
       value: 
       objectReference: {fileID: 1892776365}
+    - target: {fileID: 3676633034868557249, guid: 7be926679d0291a47a6651f1349d7247, type: 3}
+      propertyPath: m_Color.a
+      value: 0.2901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 3676633034868557249, guid: 7be926679d0291a47a6651f1349d7247, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3676633034868557249, guid: 7be926679d0291a47a6651f1349d7247, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3676633034868557249, guid: 7be926679d0291a47a6651f1349d7247, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5952583869503882531, guid: 7be926679d0291a47a6651f1349d7247, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.4
@@ -587,7 +607,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8405148180161794800, guid: 7be926679d0291a47a6651f1349d7247, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
