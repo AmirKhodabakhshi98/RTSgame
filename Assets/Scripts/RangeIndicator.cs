@@ -40,26 +40,26 @@ public class RangeIndicator : MonoBehaviour
     }
 
     private Vector3 lastPos;
-    void FixedUpdate()
+    void LateUpdate()
     {
         if (selected)
         {
             lr.enabled = true;
-            if(transform.position != lastPos){
+ //           if(transform.position != lastPos){
 
 
-                updateTimer -= Time.deltaTime;
-                if (updateTimer <= 0f)
+   //             updateTimer -= Time.deltaTime;
+ //               if (updateTimer <= 0f)
                 {
-                    updateTimer = updateInterval;
+     //               updateTimer = updateInterval;
                     DrawRangeRing();
-                    lastPos = transform.position;
+     //               lastPos = transform.position;
                 }
 
                 // UpdateTargetPoints();
                 // SmoothUpdateLine();
             }
-        }
+  //      }
         else
         {
             lr.enabled = false;
