@@ -94,7 +94,7 @@ public class Unit : MonoBehaviour
         selected = isSelected;
         SelectedEffect.SetActive(selected);
       //  RangeIndicator.GetComponent<RangeIndicator>().setSelected(isSelected);
-        RangeEffect.SetActive(selected);
+    //    RangeEffect.SetActive(selected);
         
     }
     
