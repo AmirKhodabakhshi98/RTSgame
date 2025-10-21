@@ -1,3 +1,44 @@
+W1: features
+
+shot ray fix
+shot animation
+shot sound
+
+damage sound
+damage animation
+health pickups/regen zone (pickup instant and not infinite, so less waiting, more focus needed, less cheesing)
+healthcare sound
+
+make it towers
+pickup stuff for win points, show it too...+sound
+main menu with controls. level controller
+
+show time after beating level
+ai local avoidance
+make sure level into level stuff works.
+
+notes: remember with health pickups, its best to have as few damaged tanks as possible as theyre a limited supply. sth sht progression/skill
+
+Levels:
+* 1 tank, 1 turret, 1 coin (teaches that 1 tank beats 1 turret)
+* 1 tank, 2 turrets, 1 coin, 1 healthpack in between (teaches healthpacks)
+* 2 tanks, 3 turrents, 1 coin. (teaches multi tank use, to combo them against the towers)
+ (above levels linear)
+* have like 2 lanes with obstacle in between, so turrets in each lane cant fire on you (level teaching obstacle) U-Turn connect at end of lanes, healthpack there. e.g. could be 3 turrets in each lane "back to back" w.r.g obstacle. 2 tanks, 2 healthpacks. coins in each lane.
+
+* island areas. obstacles should be here too. 4 tanks (level teaching water (eg island turrets))
+*  have like bigger harder area where you can 1-tap all coins vs like 4 easier ones. (path choices)
+* (full fight level 1-2)
+
+* (full fight level 1-2) / testing etc / last sec visual changes or sth.
+
+* playthrough
+
+* development screencast
+
+* teaser
+
+
 minimap flash when contact or detect enemy, diff color
 show where u clicked for move order
 

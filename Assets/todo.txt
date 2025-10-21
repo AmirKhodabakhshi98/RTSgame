@@ -1,6 +1,7 @@
-right click select...
 healing
 explosion effects
 damaged effects
 local avoidance
 AI - movement, patrol? chase?
+
+
