@@ -1,11 +1,6 @@
 W1: features
 
-shot ray fix
-shot animation
-shot sound
 
-damage sound
-damage animation
 health pickups/regen zone (pickup instant and not infinite, so less waiting, more focus needed, less cheesing)
 healthcare sound
 
@@ -41,9 +36,9 @@ Levels:
 
 
 gamedesign things to say:
-range indicator teaches player range. we cant see for ai, but they have same range. skilled player learns that and to estimate when contact will happen.
-
-
+*range indicator teaches player range. we cant see for ai, but they have same range. skilled player learns that and to estimate when contact will happen.
+*can use obstacles to bait enemy fire. since everyone can shoot through obstacles. SKILL
+*limited health pickups. skill to use most damaged one. can also save them for later.
 
 
 
@@ -72,6 +67,6 @@ unit fire
 
 
 
-
+https://sfxr.me/
 
 https://peraperavrc.github.io/package-extractor/

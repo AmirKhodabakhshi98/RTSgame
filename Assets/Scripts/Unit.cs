@@ -76,7 +76,7 @@ public class Unit : MonoBehaviour
         if (health > maxHealth)
         {
             health = maxHealth;
-            //do sth for healing
+            //do sth for healing effect
         }
 
         if (health <= 0)

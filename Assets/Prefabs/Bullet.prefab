@@ -180,3 +180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   explosion: {fileID: 5886867159108153250, guid: 3c37cdd0488b1f34b8409ab66308ddd2, type: 3}
   obstacleExplosion: {fileID: 7394420892182957957, guid: 1129bc8ea1acfa2469ba797c1d899080, type: 3}
+  explosionSoundHitPrefab: {fileID: 2515617771066319592, guid: 031f8258266cabc48a9b6447a3402809, type: 3}
+  explosionSoundMissPrefab: {fileID: 6823369978635068637, guid: 203c79a75ff11e74298b6fa5c04cb992, type: 3}
+  shootSoundPrefab: {fileID: 3726997589868307373, guid: eb03a590c7cdd6a4c936369cd0ac3bfd, type: 3}
+  shootSound: {fileID: 0}
