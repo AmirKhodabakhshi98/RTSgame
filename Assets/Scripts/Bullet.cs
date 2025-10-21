@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     private int damage;
     private float speed;
     public GameObject explosion;
+    public GameObject obstacleExplosion;
     private Vector2 startPos;
     private float travelledDistance;
     private Rigidbody2D rb;
@@ -56,7 +57,7 @@ public class Bullet : MonoBehaviour
         }
         else if (collision.CompareTag("Obstacle"))
         {
-            Instantiate(explosion,  transform.position, Quaternion.identity);
+            Instantiate(obstacleExplosion, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }else
         { 
