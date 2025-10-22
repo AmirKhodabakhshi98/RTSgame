@@ -9,12 +9,10 @@ public class Bullet : MonoBehaviour
     private float speed;
     public GameObject explosion;
     public GameObject obstacleExplosion;
-    public AudioSource explosionSoundHitPrefab;
-    public AudioSource explosionSoundMissPrefab;
-    public AudioSource shootSoundPrefab;
-    private AudioSource shootSound;
-    private AudioSource explosionSoundMiss;
-    private AudioSource explosionSoundHit;
+
+    public AudioClip shootSound;
+    public AudioClip explosionSoundMiss;
+    public AudioClip explosionSoundHit;
     private Vector2 startPos;
     private float travelledDistance;
     private Rigidbody2D rb;
@@ -24,9 +22,7 @@ public class Bullet : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        explosionSoundMiss = Instantiate(explosionSoundMissPrefab);
-        explosionSoundHit = Instantiate(explosionSoundHitPrefab);
-        shootSound = Instantiate(shootSoundPrefab);
+
     }
 
     public void Initialize(float r, string mt, string et, int d, float s)
@@ -39,7 +35,7 @@ public class Bullet : MonoBehaviour
         
         startPos = transform.position;
         rb.linearVelocity = transform.up * speed;
-        shootSound.Play();
+        AudioSource.PlayClipAtPoint(shootSound, transform.position);
     }
 
 
@@ -61,16 +57,16 @@ public class Bullet : MonoBehaviour
         if (collision.CompareTag(enemyTag))
         {
             collision.GetComponent<Unit>().changeHealth(-damage);
-          //  Instantiate(explosion,  transform.position, Quaternion.identity);
+            Instantiate(explosion,  transform.position, Quaternion.identity);
             //Instantiate(explosionSoundHit, transform.position, Quaternion.identity);
-            explosionSoundHit.Play();
+            AudioSource.PlayClipAtPoint(explosionSoundHit, transform.position);
             Destroy(gameObject);
         }
         else if (collision.CompareTag("Obstacle"))
         {
-           // Instantiate(obstacleExplosion, transform.position, Quaternion.identity);
+            Instantiate(obstacleExplosion, transform.position, Quaternion.identity);
            // Instantiate(explosionSoundMiss, transform.position, Quaternion.identity);
-            explosionSoundMiss.Play();
+           AudioSource.PlayClipAtPoint(explosionSoundMiss, transform.position);
             Destroy(gameObject);
         }else
         { 

@@ -1,19 +1,18 @@
 W1: features
 
+damaged visual effects
 
-health pickups/regen zone (pickup instant and not infinite, so less waiting, more focus needed, less cheesing)
-healthcare sound
 
 
 make it towers
 pickup stuff for win points, show it too...+sound
 main menu with controls. level controller
+extraction zone
 
-show time after beating level
+show time+coins after beating level
 ai local avoidance
 make sure level into level stuff works.
 
-notes: remember with health pickups, its best to have as few damaged tanks as possible as theyre a limited supply. sth sht progression/skill
 
 Levels:
 * 1 tank, 1 turret, 1 coin (teaches that 1 tank beats 1 turret)
@@ -39,6 +38,7 @@ gamedesign things to say:
 *range indicator teaches player range. we cant see for ai, but they have same range. skilled player learns that and to estimate when contact will happen.
 *can use obstacles to bait enemy fire. since everyone can shoot through obstacles. SKILL
 *limited health pickups. skill to use most damaged one. can also save them for later.
+notes: remember with health pickups, its best to have as few damaged tanks as possible as theyre a limited supply. sth sht progression/skill
 
 
 
