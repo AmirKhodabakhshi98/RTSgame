@@ -1,18 +1,15 @@
 W1: features
+https://www.youtube.com/watch?v=YUcvy9PHeXs
 
+pickup people for win points, show it too...+sound(maybe like a "thank you!")
+extraction zone
+show score after beating level
+ai local avoidance
 damaged visual effects
 
 
 
-make it towers
-pickup stuff for win points, show it too...+sound
-main menu with controls. level controller
-extraction zone
-
-show time+coins after beating level
-ai local avoidance
-make sure level into level stuff works.
-
+MAYBE LEVELS WHERE U JUST HAVE TO HIT IT AND QUIT IT. run through pick up stuff and keep going without killing everything
 
 Levels:
 * 1 tank, 1 turret, 1 coin (teaches that 1 tank beats 1 turret)
@@ -24,8 +21,14 @@ Levels:
 * island areas. obstacles should be here too. 4 tanks (level teaching water (eg island turrets))
 *  have like bigger harder area where you can 1-tap all coins vs like 4 easier ones. (path choices)
 * (full fight level 1-2)
-
 * (full fight level 1-2) / testing etc / last sec visual changes or sth.
+
+
+main menu with controls. level controller
+How To Play: Left click to select a unit. Drag a box to select multiple units. Right click to move the selected units. 
+Pick-up as many stranded soldiers as you can! Move into the extraction zone to leave.
+
+*playtest
 
 * playthrough
 
@@ -39,7 +42,7 @@ gamedesign things to say:
 *can use obstacles to bait enemy fire. since everyone can shoot through obstacles. SKILL
 *limited health pickups. skill to use most damaged one. can also save them for later.
 notes: remember with health pickups, its best to have as few damaged tanks as possible as theyre a limited supply. sth sht progression/skill
-
+extraction zone: player has to also keep in mind defenses to bypass it.
 
 
 minimap flash when contact or detect enemy, diff color

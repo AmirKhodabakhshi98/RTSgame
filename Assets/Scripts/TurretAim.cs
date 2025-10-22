@@ -39,6 +39,7 @@ public class TurretAim : MonoBehaviour
         {
             //idle rotation
             transform.Rotate(rotationSpeed* idleRotationFactor * Time.deltaTime*Vector3.forward);
+                
 
             currentTarget = FindTarget();
         }
