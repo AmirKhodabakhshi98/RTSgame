@@ -1,14 +1,12 @@
 W1: features
 https://www.youtube.com/watch?v=YUcvy9PHeXs
 
-
-death effects
-
-damaged visual for enemy
-
+pickup people for win points, show it too...+sound(maybe like a "thank you!")
+extraction zone
 show score after beating level
 
-
+ai local avoidance
+damaged visual effects - healthbar on selecting a unit right below em. on hover for enemy maybe or sth
 
 
 extras if time: show number of alive tanks and enemies?

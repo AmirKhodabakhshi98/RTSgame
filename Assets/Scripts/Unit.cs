@@ -98,7 +98,10 @@ public class Unit : MonoBehaviour
 
         if (health <= 0)
         {
-            AudioSource.PlayClipAtPoint(deathClip, transform.position);
+            if (myTag=="PlayerUnit")
+            {
+                AudioSource.PlayClipAtPoint(deathClip, transform.position);
+            }
             Destroy(gameObject);
         }
 
