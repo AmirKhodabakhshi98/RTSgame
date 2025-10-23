@@ -24,6 +24,9 @@ public class Unit : MonoBehaviour
     private string myTag;
     private string enemyTag;
     private Slider healthBar;
+    private CanvasGroup group;
+    
+    
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -36,11 +39,16 @@ public class Unit : MonoBehaviour
             enemyTag = "PlayerUnit";
         }else if (gameObject.CompareTag("PlayerUnit"))
         {
-            healthBar = GetComponentInChildren<Slider>();
+            
             myTag = gameObject.tag;
             enemyTag = "EnemyUnit";
+            SelectedEffect.SetActive(selected);
+            RangeIndicator.GetComponent<RangeIndicator>().setSelected(selected);
         }
-        
+        healthBar = GetComponentInChildren<Slider>();
+        group = healthBar.GetComponent<CanvasGroup>();
+        if (!group) group = healthBar.gameObject.AddComponent<CanvasGroup>();
+        group.alpha = 0f;
     }
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -53,8 +61,7 @@ public class Unit : MonoBehaviour
             
             target = new GameObject("ClickMarker").transform;
             RangeEffect.transform.localScale = new Vector3(attackRange * 2, attackRange * 2, 1);
-            SelectedEffect.SetActive(selected);
-            RangeIndicator.GetComponent<RangeIndicator>().setSelected(selected);
+
         }
         
 
@@ -97,17 +104,12 @@ public class Unit : MonoBehaviour
 
         if (health <= 0)
         {
-            if (myTag=="PlayerUnit")
-            {
-                AudioSource.PlayClipAtPoint(deathClip, transform.position);
-            }
+            AudioSource.PlayClipAtPoint(deathClip, transform.position);
             Destroy(gameObject);
         }
-
-        if (myTag == "PlayerUnit")
-        {
-            healthBar.value = health/maxHealth;
-        }
+        
+        healthBar.value = health/maxHealth;
+        
     }
 
 
@@ -118,6 +120,7 @@ public class Unit : MonoBehaviour
         selected = isSelected;
         SelectedEffect.SetActive(selected);
         RangeIndicator.GetComponent<RangeIndicator>().setSelected(selected);
+        group.alpha = isSelected ? 1f : 0f;
         //RangeEffect.SetActive(selected);
         
     }
