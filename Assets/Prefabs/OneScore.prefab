@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149322581463538509}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.37768078, y: -1.75809, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
@@ -151,4 +151,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   score: 1
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 974ffc7321fc660469898237090819cd, type: 3}
