@@ -55,12 +55,14 @@ public class Unit : MonoBehaviour
     void Start()
     {
         //if units start moving weirdly on spawn look here XD //
+        
 
         if(gameObject.CompareTag("PlayerUnit"))
         {
             
             target = new GameObject("ClickMarker").transform;
             RangeEffect.transform.localScale = new Vector3(attackRange * 2, attackRange * 2, 1);
+            LevelEnd.instance.Register();
 
         }
         
@@ -105,6 +107,10 @@ public class Unit : MonoBehaviour
         if (health <= 0)
         {
             AudioSource.PlayClipAtPoint(deathClip, transform.position);
+            
+            if(myTag == "PlayerUnit"){
+                LevelEnd.instance.Unregister();   
+            }
             Destroy(gameObject);
         }
         

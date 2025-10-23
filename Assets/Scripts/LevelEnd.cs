@@ -2,16 +2,38 @@ using UnityEngine;
 
 public class LevelEnd : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public AudioClip soundClip;
     
-    private void OnTriggerEnter2D(Collider2D collision)
+    
+    public static LevelEnd instance;
+    private int playerUnitsLive = 0;
+    
+    
+    private void Awake()
     {
-        if (collision.CompareTag("PlayerUnit"))
+        if (!instance)
         {
-            AudioSource.PlayClipAtPoint(soundClip, transform.position);
-            
-            Destroy(gameObject);
-        } 
+            instance = this;
+        }
     }
+
+    public void Register()
+    {
+        playerUnitsLive++;
+        Debug.Log(playerUnitsLive);
+    }
+
+    public void Unregister()
+    {
+        playerUnitsLive--;
+        if (playerUnitsLive <= 0)
+        {
+            Debug.Log(playerUnitsLive);
+        }
+    }
+
+    public void Evacuated()
+    {
+        Debug.Log("evac");
+    }
+    
 }
