@@ -25,7 +25,8 @@ public class Unit : MonoBehaviour
     private string enemyTag;
     private Slider healthBar;
     private CanvasGroup group;
-    
+
+    private Formation formation;
     
     private void Awake()
     {
@@ -64,6 +65,7 @@ public class Unit : MonoBehaviour
             RangeEffect.transform.localScale = new Vector3(attackRange * 2, attackRange * 2, 1);
             LevelEnd.instance.Register();
             group.alpha = 0f;
+            formation = Formation.instance;
         }
         
 
@@ -81,6 +83,7 @@ public class Unit : MonoBehaviour
                 Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 mouseWorldPos.z = 0f;
                 target.position = mouseWorldPos;
+                target = formation.getTarget(gameObject,target);
                 ads.target = target;
             }
         }
@@ -124,9 +127,10 @@ public class Unit : MonoBehaviour
     public void SetSelected(bool isSelected)
     {
         selected = isSelected;
+        formation.SetSelected(gameObject, selected);
         SelectedEffect.SetActive(selected);
         RangeIndicator.GetComponent<RangeIndicator>().setSelected(selected);
-        group.alpha = isSelected ? 1f : 0f;
+        group.alpha = selected ? 1f : 0f;
         //RangeEffect.SetActive(selected);
         
     }
