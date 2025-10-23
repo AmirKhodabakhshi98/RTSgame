@@ -39,8 +39,6 @@ public class Unit : MonoBehaviour
             healthBar = GetComponentInChildren<Slider>();
             myTag = gameObject.tag;
             enemyTag = "EnemyUnit";
-            SelectedEffect.SetActive(selected);
-            RangeIndicator.GetComponent<RangeIndicator>().setSelected(selected);
         }
         
     }
@@ -55,7 +53,8 @@ public class Unit : MonoBehaviour
             
             target = new GameObject("ClickMarker").transform;
             RangeEffect.transform.localScale = new Vector3(attackRange * 2, attackRange * 2, 1);
-
+            SelectedEffect.SetActive(selected);
+            RangeIndicator.GetComponent<RangeIndicator>().setSelected(selected);
         }
         
 
