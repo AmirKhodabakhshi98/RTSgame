@@ -5,7 +5,12 @@ public class Formation : MonoBehaviour
 {
 
     public static Formation instance;
-   
+    public float spacing = 1f;
+    public bool includeCenter = true;
+    public float jitter = 0f;
+    
+    private List<GameObject> selected = new List<GameObject>();
+    
     
     private void Awake()
     {
@@ -16,7 +21,7 @@ public class Formation : MonoBehaviour
     }
 
 
-    private List<GameObject> selected = new List<GameObject>();
+    
     
     public void SetSelected(GameObject go, bool isSelected)
     {
@@ -31,9 +36,7 @@ public class Formation : MonoBehaviour
     }
     
     
-    public float spacing = 1f;
-    public bool includeCenter = true;
-    public float jitter = 0f;
+
     
     public Transform getTarget(GameObject go, Transform target)
     {
@@ -46,8 +49,8 @@ public class Formation : MonoBehaviour
         List<Vector2> spacedPos = GetSpacedPositions2D(target.position, selected.Count, spacing, includeCenter, jitter);
         
         int index = selected.IndexOf(go);
-        
         target.position = spacedPos[index];
+        
         return target;
     }
     
