@@ -183,7 +183,7 @@ MonoBehaviour:
   attackRange: 5
   fireRate: 1
   turretRotationSpeed: 100
-  damage: 10
+  damage: 100
   bulletSpeed: 5
   deathClip: {fileID: 8300000, guid: bda7054b9326e4d43a0babf90f8f8802, type: 3}
   SelectedEffect: {fileID: 0}

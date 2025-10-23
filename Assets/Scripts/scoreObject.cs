@@ -13,6 +13,7 @@ public class scoreObject : MonoBehaviour
     private void Start()
     {
         scoreManager = ScoreManager.instance;
+        scoreManager.AddTotal(score);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -20,7 +21,8 @@ public class scoreObject : MonoBehaviour
         if (collision.CompareTag("PlayerUnit"))
         {
             AudioSource.PlayClipAtPoint(soundClip, transform.position);
-            scoreManager.AddScore(score);
+            scoreManager.AddScore(score); //for ui
+            //LevelEnd.instance.ScoreTotalAdd(); //for post level screen totals
             Destroy(gameObject);
         } 
     }

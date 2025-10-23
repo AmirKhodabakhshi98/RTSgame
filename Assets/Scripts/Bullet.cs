@@ -66,7 +66,8 @@ public class Bullet : MonoBehaviour
         {
             Instantiate(obstacleExplosion, transform.position, Quaternion.identity);
            // Instantiate(explosionSoundMiss, transform.position, Quaternion.identity);
-           AudioSource.PlayClipAtPoint(explosionSoundMiss, transform.position);
+          
+           // AudioSource.PlayClipAtPoint(explosionSoundMiss, transform.position);
             Destroy(gameObject);
         }else
         { 

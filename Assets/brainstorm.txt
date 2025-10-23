@@ -3,14 +3,8 @@ https://www.youtube.com/watch?v=YUcvy9PHeXs
 
 
 
-space out move orders based on nbr of units selected.
-show score after beating level
-main menu with controls. level controller
-How To Play: Left click to select a unit. Drag a box to select multiple units. Right click to move the selected units. 
-Pick-up as many stranded soldiers as you can! Move into the extraction zone to leave.
+*space out move orders based on nbr of units selected.
 
-
-extras if time: show number of alive tanks and enemies? make shit more visible, change visuals etc.
 
 
 MAYBE LEVELS WHERE U JUST HAVE TO HIT IT AND QUIT IT. run through pick up stuff and keep going without killing everything
@@ -28,7 +22,8 @@ Levels:
 * (full fight level 1-2) / testing etc / last sec visual changes or sth.
 
 
-
+extras if time: show number of alive tanks and enemies? make shit more visible, change visuals etc.
+add images in how to.
 
 *playtest
 
