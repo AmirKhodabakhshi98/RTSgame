@@ -1,18 +1,25 @@
+using System;
 using UnityEngine;
+using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
     private int score;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    
+    public static ScoreManager instance;
+    [SerializeField] private TMP_Text scoreText;
+    
+    private void Awake()
     {
-        score = 0;
+        if (!instance)
+        {
+            instance = this;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnGUI()
     {
-        
+        scoreText.text = score.ToString();
     }
 
 

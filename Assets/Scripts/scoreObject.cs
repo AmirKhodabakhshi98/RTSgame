@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class scoreObject : MonoBehaviour
@@ -6,13 +7,20 @@ public class scoreObject : MonoBehaviour
 
     public int score = 1;
     public AudioClip soundClip;
+    
+    private ScoreManager scoreManager;
+    
+    private void Start()
+    {
+        scoreManager = ScoreManager.instance;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("PlayerUnit"))
         {
-            //incrs score +=score
-            //AudioSource.PlayClipAtPoint(soundClip, transform.position);
+            AudioSource.PlayClipAtPoint(soundClip, transform.position);
+            scoreManager.AddScore(score);
             Destroy(gameObject);
         } 
     }

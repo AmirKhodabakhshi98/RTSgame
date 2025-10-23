@@ -1,5 +1,6 @@
 using Pathfinding;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Unit : MonoBehaviour
 {
@@ -14,16 +15,20 @@ public class Unit : MonoBehaviour
     public float turretRotationSpeed = 5f ;
     public int damage = 10;
     public float bulletSpeed = 5f;
+    public AudioClip deathClip;
+
     
     [SerializeField] private GameObject SelectedEffect;
     [SerializeField] private GameObject RangeEffect;
     [SerializeField] private GameObject RangeIndicator;
     private string myTag;
     private string enemyTag;
+    private Slider healthBar;
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
         ads = GetComponent<AIDestinationSetter>();
+        
         
         if (gameObject.CompareTag("EnemyUnit"))
         {
@@ -31,6 +36,7 @@ public class Unit : MonoBehaviour
             enemyTag = "PlayerUnit";
         }else if (gameObject.CompareTag("PlayerUnit"))
         {
+            healthBar = GetComponentInChildren<Slider>();
             myTag = gameObject.tag;
             enemyTag = "EnemyUnit";
         }
@@ -44,10 +50,13 @@ public class Unit : MonoBehaviour
 
         if(gameObject.CompareTag("PlayerUnit"))
         {
+            
             target = new GameObject("ClickMarker").transform;
             RangeEffect.transform.localScale = new Vector3(attackRange * 2, attackRange * 2, 1);
+            SelectedEffect.SetActive(selected);
+            RangeIndicator.GetComponent<RangeIndicator>().setSelected(selected);
         }
-
+        
 
     }
 
@@ -68,21 +77,36 @@ public class Unit : MonoBehaviour
         }
         
     }
-
+    
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag(myTag))
+        {
+            Physics2D.IgnoreCollision(GetComponent<Collider2D>(), collision.collider);
+        }
+    }
 
     public void changeHealth(float amount)
     {
+        
         health += amount;
         if (health > maxHealth)
         {
             health = maxHealth;
-            //do sth for healing effect
         }
 
         if (health <= 0)
         {
+            if (myTag=="PlayerUnit")
+            {
+                AudioSource.PlayClipAtPoint(deathClip, transform.position);
+            }
             Destroy(gameObject);
+        }
 
+        if (myTag == "PlayerUnit")
+        {
+            healthBar.value = health/maxHealth;
         }
     }
 
