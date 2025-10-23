@@ -6,13 +6,20 @@ public class StartMenu : MonoBehaviour
 
     public void OnStartClick()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
     
     public void OnTutorialClick()
     {
+        SceneManager.LoadScene(1);
+    }
+    
+    
+    public void OnBackClick()
+    {
         SceneManager.LoadScene(0);
     }
+    
     
     public void OnExitClick()
     {
