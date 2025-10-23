@@ -48,7 +48,7 @@ public class Unit : MonoBehaviour
         healthBar = GetComponentInChildren<Slider>();
         group = healthBar.GetComponent<CanvasGroup>();
         if (!group) group = healthBar.gameObject.AddComponent<CanvasGroup>();
-        group.alpha = 0f;
+        
     }
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -63,7 +63,7 @@ public class Unit : MonoBehaviour
             target = new GameObject("ClickMarker").transform;
             RangeEffect.transform.localScale = new Vector3(attackRange * 2, attackRange * 2, 1);
             LevelEnd.instance.Register();
-
+            group.alpha = 0f;
         }
         
 
