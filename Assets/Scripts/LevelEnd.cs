@@ -104,7 +104,7 @@ public class LevelEnd : MonoBehaviour
 
     public bool canEvac()
     {
-        return score >= ScoreManager.instance.evacScore;
+        return ScoreManager.instance.getScore() >= ScoreManager.instance.evacScore;
     }
 
     public void Evacuated()
