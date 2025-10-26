@@ -67,7 +67,7 @@ public class Unit : MonoBehaviour
             group.alpha = 0f;
             formation = Formation.instance;
         }
-        
+        healthBar.value = health/maxHealth;
 
     }
 
