@@ -12,10 +12,12 @@ public class HealthPickup : MonoBehaviour
     {
         if (collision.CompareTag("PlayerUnit"))
         {
-            collision.GetComponent<Unit>().changeHealth(100);
-            AudioSource.PlayClipAtPoint(soundClip, transform.position);
-            Destroy(gameObject);
+            if (collision.GetComponent<Unit>().health<100)
+            {
+                collision.GetComponent<Unit>().changeHealth(100);
+                AudioSource.PlayClipAtPoint(soundClip, transform.position);
+                Destroy(gameObject);
+            }
         }
     }
-
 }

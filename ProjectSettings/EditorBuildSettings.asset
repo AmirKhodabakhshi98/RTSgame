@@ -11,9 +11,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: fb3cf16e109ffc346b447da59ffe439c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 58752121ceade8f47aca6a55182a43dc
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 339cd7010b0e2744098b7bf335627988
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: a6334d5c8068527469899ef13b0318cd
+  - enabled: 1
+    path: Assets/Scenes/Level Obstacle.unity
+    guid: c6443ef554d70194c86382034a30e4c8
+  - enabled: 1
+    path: Assets/Scenes/Level Water.unity
+    guid: 2006f551819b0de409694ceb870bc3dc
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

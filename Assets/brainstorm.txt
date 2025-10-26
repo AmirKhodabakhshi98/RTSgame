@@ -11,17 +11,17 @@ Levels:
 * Level Obstacle - teaches how obstacles work. easy and harder ways to finish it.
 
 
+* Level Water - teaching water mechanics. 4 tanks, 
+
+
+
+*  have like bigger harder area where you can 1-tap all coins vs like 4 easier ones. (path choices) or some kinda path choicing.
 
 * 2 tank, 1 turret, 1 coin (teaches that 1 tank draws 1 turret) - can make the second tank spawn further away, or one on each side or sth. or just 1 tank and hp packs
-
-
-
-
-
-* island areas. obstacles should be here too. 4 tanks (level teaching water (eg island turrets))
-*  have like bigger harder area where you can 1-tap all coins vs like 4 easier ones. (path choices) or some kinda path choicing.
 * (full fight level 1-2)
 * (full fight level 1-2) / testing etc / last sec visual changes or sth.
+
+
 
 *unit cards?
 *smoke on enemies
