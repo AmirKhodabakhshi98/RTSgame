@@ -15,9 +15,6 @@ Levels:
 * 2 tank, 1 turret, 1 coin (teaches that 1 tank draws 1 turret) - can make the second tank spawn further away, or one on each side or sth. or just 1 tank and hp packs
 
 
-* 2 tank, x turrets, x coin, x healthpack in between (teaches healthpacks)
-* 2 tanks, 3 turrents, 1 coin. (teaches multi tank use, to combo them against the towers)
-
 
 
 
