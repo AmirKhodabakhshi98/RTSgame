@@ -7,7 +7,7 @@ public class Evac : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("PlayerUnit"))
+        if (collision.CompareTag("PlayerUnit") && LevelEnd.instance.canEvac())
         {
             AudioSource.PlayClipAtPoint(soundClip, transform.position);
             LevelEnd.instance.Evacuated();

@@ -6,6 +6,7 @@ public class ScoreManager : MonoBehaviour
 {
     private int score;
     private int totalScore;
+    public int evacScore = 1;
     
     public static ScoreManager instance;
     [SerializeField] private TMP_Text scoreText;
@@ -21,7 +22,8 @@ public class ScoreManager : MonoBehaviour
     private void OnGUI()
     {
         
-        scoreText.text = score.ToString() + " / " + totalScore.ToString();
+        //scoreText.text = score.ToString() + " / " + totalScore.ToString();
+        scoreText.text = score.ToString() + " / " + evacScore.ToString();
     }
 
     public void AddTotal(int scoreToAdd)

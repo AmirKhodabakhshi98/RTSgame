@@ -31,7 +31,7 @@ public class LevelEnd : MonoBehaviour
 
     private void Start()
     {
-        
+       
     }
 
    
@@ -102,8 +102,14 @@ public class LevelEnd : MonoBehaviour
         }
     }
 
+    public bool canEvac()
+    {
+        return score >= ScoreManager.instance.evacScore;
+    }
+
     public void Evacuated()
     {
+        
         LevelOver(true);
     }
     

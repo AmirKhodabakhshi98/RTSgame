@@ -2,22 +2,23 @@ W1: features
 
 
 
-MAYBE LEVELS WHERE U JUST HAVE TO HIT IT AND QUIT IT. run through pick up stuff and keep going without killing everything
 
 Levels:
 * Level 1 - basic movement, see combat
 * Level 2 - multi tank, intro to hostage rescue
 * Level 3 - healthpack intro. choices intro. healthpacks too hard to miss :P
 * Level Obstacle - teaches how obstacles work. easy and harder ways to finish it.
-
-
 * Level Water - teaching water mechanics. 4 tanks, 
+
+
+
+JUST HAVE TO HIT IT AND QUIT IT. run through pick up stuff and keep going without killing everything. maybe just 1 tank. have to time it all the way through? hostage could be picked up at start, then just have to reach the end.
 
 
 
 *  have like bigger harder area where you can 1-tap all coins vs like 4 easier ones. (path choices) or some kinda path choicing.
 
-* 2 tank, 1 turret, 1 coin (teaches that 1 tank draws 1 turret) - can make the second tank spawn further away, or one on each side or sth. or just 1 tank and hp packs
+
 * (full fight level 1-2)
 * (full fight level 1-2) / testing etc / last sec visual changes or sth.
 
