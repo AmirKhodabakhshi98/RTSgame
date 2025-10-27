@@ -20,6 +20,7 @@ public class LevelEnd : MonoBehaviour
     public TextMeshProUGUI title;
     public TextMeshProUGUI button;
     public TextMeshProUGUI debrief;
+    public TextMeshProUGUI subtitle;
     public Image bronze;
     public Image silver;
     public Image gold;
@@ -101,13 +102,15 @@ public class LevelEnd : MonoBehaviour
             }
             */
 
-            
+            subtitle.text = "Bare Minimum...";
             bronze.color = Color.white;
             if (wonLevel >= 1)
             {
+                subtitle.text = "Sacrifices had to be made.";
                 silver.color = Color.white;
                 if (wonLevel >= 2)
                 {
+                    subtitle.text = "Perfect!";
                     gold.color = Color.white;
                 }
             }

@@ -759,9 +759,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "How To Play: Left click to select a unit. Drag a box to select multiple
-    units. \nRight click to move the selected units. \n\r\nObjective: Pick-up as
-    many stranded soldiers as you can! Move at least one unit into the extraction
-    zone to finish the level.\r\n"
+    units. \nRight click to move the selected units. \n\r\nObjectives: \n\nPick-up
+    the minimum required number of civilians. \n\nMove at least one unit into the
+    extraction zone to finish the level.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
