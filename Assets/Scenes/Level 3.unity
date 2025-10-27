@@ -267,11 +267,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3294811743034642941, guid: a609407d941a5f549a4c351d8409e825, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.33
+      value: -15.3
       objectReference: {fileID: 0}
     - target: {fileID: 3294811743034642941, guid: a609407d941a5f549a4c351d8409e825, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.22
+      value: 8.6
       objectReference: {fileID: 0}
     - target: {fileID: 3294811743034642941, guid: a609407d941a5f549a4c351d8409e825, type: 3}
       propertyPath: m_LocalPosition.z
@@ -320,11 +320,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.15
+      value: 8.34
       objectReference: {fileID: 0}
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.31
+      value: 9.39
       objectReference: {fileID: 0}
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -377,11 +377,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.32
+      value: -17.71
       objectReference: {fileID: 0}
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.02
+      value: -0.17
       objectReference: {fileID: 0}
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -419,6 +419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthPickup (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9213496978010816453, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -434,7 +438,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.45
+      value: 8.27
       objectReference: {fileID: 0}
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -538,6 +542,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthPickup (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 9213496978010816453, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -594,6 +602,10 @@ PrefabInstance:
     - target: {fileID: 9213496978010816453, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_Name
       value: HealthPickup (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213496978010816453, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -848,11 +860,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.93
+      value: -16.26
       objectReference: {fileID: 0}
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.23
+      value: -1.31
       objectReference: {fileID: 0}
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1036,11 +1048,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3294811743034642941, guid: a609407d941a5f549a4c351d8409e825, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.21
+      value: 7.36
       objectReference: {fileID: 0}
     - target: {fileID: 3294811743034642941, guid: a609407d941a5f549a4c351d8409e825, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.16
+      value: 8.7
       objectReference: {fileID: 0}
     - target: {fileID: 3294811743034642941, guid: a609407d941a5f549a4c351d8409e825, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1131,6 +1143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthPickup (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 9213496978010816453, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1146,11 +1162,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.06
+      value: 10.19
       objectReference: {fileID: 0}
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8
+      value: 8.19
       objectReference: {fileID: 0}
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1187,6 +1203,10 @@ PrefabInstance:
     - target: {fileID: 9213496978010816453, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_Name
       value: HealthPickup (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213496978010816453, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1353,11 +1373,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.98
+      value: -15.06
       objectReference: {fileID: 0}
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.2
+      value: 11.02
       objectReference: {fileID: 0}
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1394,6 +1414,10 @@ PrefabInstance:
     - target: {fileID: 9213496978010816453, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_Name
       value: HealthPickup (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213496978010816453, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1452,6 +1476,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthPickup (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 9213496978010816453, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1509,6 +1537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthPickup (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 9213496978010816453, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1528,11 +1560,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3294811743034642941, guid: a609407d941a5f549a4c351d8409e825, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.1
+      value: 7.21
       objectReference: {fileID: 0}
     - target: {fileID: 3294811743034642941, guid: a609407d941a5f549a4c351d8409e825, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.22
+      value: -0.36
       objectReference: {fileID: 0}
     - target: {fileID: 3294811743034642941, guid: a609407d941a5f549a4c351d8409e825, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1581,11 +1613,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.03
+      value: 10.73
       objectReference: {fileID: 0}
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.11
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1622,6 +1654,10 @@ PrefabInstance:
     - target: {fileID: 9213496978010816453, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_Name
       value: HealthPickup (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213496978010816453, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1680,6 +1716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthPickup (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 9213496978010816453, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1737,6 +1777,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthPickup (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 9213496978010816453, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1753,6 +1797,10 @@ PrefabInstance:
     - target: {fileID: 1149322581463538509, guid: a609407d941a5f549a4c351d8409e825, type: 3}
       propertyPath: m_Name
       value: OneScore (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149322581463538509, guid: a609407d941a5f549a4c351d8409e825, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3294811743034642941, guid: a609407d941a5f549a4c351d8409e825, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1951,11 +1999,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.27
+      value: -16.33
       objectReference: {fileID: 0}
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.89
+      value: 9.25
       objectReference: {fileID: 0}
     - target: {fileID: 2395606055411621397, guid: 0d81d675e89b6b449b44d46a9f15bed6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2186,11 +2234,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3294811743034642941, guid: a609407d941a5f549a4c351d8409e825, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.36
+      value: -15.2
       objectReference: {fileID: 0}
     - target: {fileID: 3294811743034642941, guid: a609407d941a5f549a4c351d8409e825, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.35
+      value: -0.55
       objectReference: {fileID: 0}
     - target: {fileID: 3294811743034642941, guid: a609407d941a5f549a4c351d8409e825, type: 3}
       propertyPath: m_LocalPosition.z

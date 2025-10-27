@@ -16,7 +16,7 @@ public class TurretAim : MonoBehaviour
     
     private int damage;
     private float bulletSpeed;
-
+    Vector2 transform2dCenter; //should fix turret move and firing ranges not matching exactly
     [Range(0f, 1f)]
     public float idleRotationFactor = 1f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -30,15 +30,17 @@ public class TurretAim : MonoBehaviour
         rotationSpeed = parent.turretRotationSpeed;
         damage = parent.damage;
         bulletSpeed = parent.bulletSpeed;
+        transform2dCenter = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
+        transform2dCenter = transform.position;
         if (currentTarget == null || !IsTargetInRange(currentTarget))
         {
             //idle rotation
-            transform.Rotate(rotationSpeed* idleRotationFactor * Time.deltaTime*Vector3.forward);
+            transform.Rotate(rotationSpeed* idleRotationFactor * Time.deltaTime*Vector3.forward); 
                 
 
             currentTarget = FindTarget();
@@ -70,7 +72,7 @@ public class TurretAim : MonoBehaviour
 
     Transform FindTarget()
     {
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, range);
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform2dCenter, range); //TEST
         Transform bestTarget = null;
         float smallestAngle = Mathf.Infinity;
     
@@ -78,7 +80,7 @@ public class TurretAim : MonoBehaviour
         {
             if (hit.CompareTag(enemyTag))
             {
-                Vector2 direction = hit.transform.position - transform.position;
+                Vector2 direction = hit.transform.position - transform.position;  //TEST
                 float angle = Vector2.Angle(transform.right, direction);
                 if (angle < smallestAngle)
                 {
@@ -93,7 +95,7 @@ public class TurretAim : MonoBehaviour
     bool IsTargetInRange(Transform target)
     {
         if (target == null) return false;
-        return Vector2.Distance(transform.position, target.position) <= range;
+        return Vector2.Distance(transform2dCenter, target.position) <= range; //TEST
     }
 
     void RotateTurret()

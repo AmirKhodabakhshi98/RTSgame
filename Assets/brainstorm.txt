@@ -18,7 +18,7 @@ JUST HAVE TO HIT IT AND QUIT IT. run through pick up stuff and keep going withou
 
 *  have like bigger harder area where you can 1-tap all coins vs like 4 easier ones. (path choices) or some kinda path choicing.
 
-
+*level, different spawn areas, maybe evac in center.
 * (full fight level 1-2)
 * (full fight level 1-2) / testing etc / last sec visual changes or sth.
 
@@ -28,7 +28,7 @@ JUST HAVE TO HIT IT AND QUIT IT. run through pick up stuff and keep going withou
 *smoke on enemies
 
 
-extras if time: make shit more visible, change visuals etc. add icons in tutorial and level over screens. firing range sometimes doesnt match turret movement range
+extras if time: make shit more visible, change visuals etc. add icons in tutorial and level over screens. firing range sometimes doesnt match turret movement range. tab to rotate through units.
 
 *playtest
 

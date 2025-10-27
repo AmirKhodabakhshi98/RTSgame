@@ -4,6 +4,7 @@ using System.Text;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI; 
 
 public class LevelEnd : MonoBehaviour
 {
@@ -19,6 +20,9 @@ public class LevelEnd : MonoBehaviour
     public TextMeshProUGUI title;
     public TextMeshProUGUI button;
     public TextMeshProUGUI debrief;
+    public Image bronze;
+    public Image silver;
+    public Image gold;
     
     private void Awake()
     {
@@ -45,15 +49,50 @@ public class LevelEnd : MonoBehaviour
         string titleText;
         string buttonText;
         string debriefText;
-        
+        int wonLevel = 0;
         
         if (won)
         {
+            if (score == totalScore)
+            {
+                wonLevel++;
+                if (playerUnitsLive == playerUnitsTotal)
+                {
+                    wonLevel++;
+                }
+            }
             
             titleText = "Evacuation Complete";
             buttonText = "NEXT LEVEL";
-            debriefText = score +  " / " + totalScore + " civilians saved." + "\n" + 
+            debriefText = score + " / " + totalScore + " civilians saved." + "\n" +
                           playerUnitsLive + " / " + playerUnitsTotal + " units survived.";
+            if (wonLevel == 0)
+            {
+                debriefText += "\n At least some survived.";
+            }else if (wonLevel == 1)
+            {
+                debriefText += "\n Sacrifices had to be made.";
+            }
+            else
+            {
+                debriefText += "\n Perfect!";
+            }
+
+            
+            bronze.color = Color.white;
+            if (wonLevel >= 1)
+            {
+                silver.color = Color.white;
+                if (wonLevel >= 2)
+                {
+                    gold.color = Color.white;
+                }
+            }
+                
+            
+            
+            
+                          
         }
         else
         {
@@ -109,7 +148,6 @@ public class LevelEnd : MonoBehaviour
 
     public void Evacuated()
     {
-        
         LevelOver(true);
     }
     
