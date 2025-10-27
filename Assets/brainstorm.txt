@@ -1,5 +1,10 @@
 W1: features
 
+* level select / esc menu
+* better civ/evac sprites
+* add icons in tutorial and level over screens
+* smoke on enemies
+* buttons to rotate units. unit cards.
 
 
 
@@ -22,8 +27,6 @@ Levels:
 
 
 
-*unit cards?
-*smoke on enemies
 
 
 
@@ -37,14 +40,6 @@ Levels:
 * teaser
 
 
-
-extras if time: make shit more visible, change visuals etc. add icons in tutorial and level over screens. firing range sometimes doesnt match turret movement range. tab to rotate through units. show move path.
-
-show where u clicked for move order
-ui shows selected units.
-smoke for enemy damage?
-enemies moving on railing, for evade level
-if time to move towers: JUST HAVE TO HIT IT AND QUIT IT. run through pick up stuff and keep going without killing everything. maybe just 1 tank. have to time it all the way through? hostage could be picked up at start, then just have to reach the end.
 
 
 

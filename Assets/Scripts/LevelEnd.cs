@@ -41,7 +41,15 @@ public class LevelEnd : MonoBehaviour
         startTime = Time.time;
     }
 
-   
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+        }
+    }
+
     private void LevelOver(bool won)
     {
         

@@ -4,9 +4,11 @@ using UnityEngine.SceneManagement;
 public class StartMenu : MonoBehaviour
 {
 
+    int dropDownLevel = 0;
+    
     public void OnStartClick()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(2+dropDownLevel);
     }
     
     public void OnTutorialClick()
@@ -19,7 +21,13 @@ public class StartMenu : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
     
+    
+    public void OnLevelSelectClick(int level)
+    {
+        dropDownLevel = level;
+    }
     
     public void OnExitClick()
     {
