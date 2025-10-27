@@ -42,9 +42,7 @@ public class LinePath : MonoBehaviour
                 myLineRend.SetPosition (i, playerAIPath.GetPathPosition(i));
             }
 
-        } else {
-            Debug.Log("no path", gameObject);
-        }
+        } 
     }
     
 }

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class UnitSelector : MonoBehaviour
 {
@@ -15,8 +16,28 @@ public class UnitSelector : MonoBehaviour
         selectionBox.gameObject.SetActive(false);
     }
 
+    private int index = 0;
+    private GameObject lastSelected;
     private void Update()
     {
+        GameObject[] playerUnits = GameObject.FindGameObjectsWithTag("PlayerUnit");
+        
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            Debug.Log(index);
+            if (lastSelected != null)
+            {
+                lastSelected.GetComponent<Unit>().SetSelected(false);
+            }
+            Debug.Log(index);
+            index++;
+            index = index % playerUnits.Length;
+            Debug.Log(index);
+            playerUnits[index].GetComponent<Unit>().SetSelected(true);
+            lastSelected = playerUnits[index];
+        }
+        
+        
         if (Input.GetMouseButtonDown(0)) 
         {
             startPos = Input.mousePosition;

@@ -28,6 +28,7 @@ public class LevelEnd : MonoBehaviour
     private float startTime;
     private float elapsedTime;
     
+    
     private void Awake()
     {
         if (!instance)

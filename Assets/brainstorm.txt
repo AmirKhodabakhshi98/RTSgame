@@ -1,7 +1,7 @@
 W1: features
 
-* better civ/evac sprites
-* add icons in tutorial and level over screens
+
+
 * smoke on enemies
 * buttons to rotate units. unit cards.
 
@@ -39,7 +39,7 @@ Levels:
 * teaser
 
 
-
+extras if time: * add icons in tutorial and level over screens. controls icons/page
 
 
 
