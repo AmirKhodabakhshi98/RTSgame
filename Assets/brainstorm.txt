@@ -1,6 +1,5 @@
 W1: features
 
-* level select / esc menu
 * better civ/evac sprites
 * add icons in tutorial and level over screens
 * smoke on enemies
