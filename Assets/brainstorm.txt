@@ -15,7 +15,7 @@ Levels:
 
 
 
-* full fight level with path choicing n stuff
+* full fight level with path choicing n stuff. chokepoints, maybe water to thin it.
 
 
 * testing etc / last sec visual changes or sth.
