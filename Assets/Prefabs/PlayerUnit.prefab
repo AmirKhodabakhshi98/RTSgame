@@ -4961,8 +4961,8 @@ MonoBehaviour:
   orientation: 1
   enableRotation: 1
   autoRepath:
-    mode: 2
-    interval: 0.5
+    mode: 1
+    interval: 0.1
     sensitivity: 10
     maximumInterval: 2
     visualizeSensitivity: 0
@@ -6073,6 +6073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LinePath
   playerAIPath: {fileID: 4796136222762376743}
   myLineRend: {fileID: 9101806171402553700}
+  repeatRate: 0.1
 --- !u!114 &4796136222762376743
 MonoBehaviour:
   m_ObjectHideFlags: 0
