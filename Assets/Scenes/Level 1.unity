@@ -31049,6 +31049,10 @@ PrefabInstance:
       value: ScoreManager
       objectReference: {fileID: 0}
     - target: {fileID: 7087490539090425806, guid: d05ab7d729a69184787ec250c4b6c273, type: 3}
+      propertyPath: evacScore
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7087490539090425806, guid: d05ab7d729a69184787ec250c4b6c273, type: 3}
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 1056361889}
