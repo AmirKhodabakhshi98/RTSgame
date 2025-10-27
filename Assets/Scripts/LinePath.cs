@@ -14,7 +14,7 @@ public class LinePath : MonoBehaviour
         visible = new Color(0, 16*0.5f, 120*0.5f, 1);
         invisible = new Color(0, 16, 120, 0);
         selected = false;
-        InvokeRepeating ("ResetLine", 0, .1f);
+        InvokeRepeating ("ResetLine", 0, 0.5f);
     }
     
     public void setSelected(bool selected)
