@@ -3,7 +3,8 @@ W1: features
 
 
 * smoke on enemies
-* buttons to rotate units. unit cards.
+* unit cards.
+* add icons in tutorial and level over screens. controls icons/page
 
 
 
@@ -39,7 +40,7 @@ Levels:
 * teaser
 
 
-extras if time: * add icons in tutorial and level over screens. controls icons/page
+extras if time: 
 
 
 
@@ -62,7 +63,7 @@ extraction zone: player has to also keep in mind defenses to bypass it.
 turret speed and rotation, u can skirmish/dodge bullets. rts pro friends got that quite early
 *can choose to save healthpacks
 *showing path - visual feedback
-
+*control groups and tab to rotate. make micro/gameplay easier. options on how to control(mouse select vs keys)
 
 
 
