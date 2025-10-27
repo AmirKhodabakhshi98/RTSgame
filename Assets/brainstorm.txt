@@ -12,13 +12,17 @@ Levels:
 
 
 
-JUST HAVE TO HIT IT AND QUIT IT. run through pick up stuff and keep going without killing everything. maybe just 1 tank. have to time it all the way through? hostage could be picked up at start, then just have to reach the end.
 
 
 
 *  have like bigger harder area where you can 1-tap all coins vs like 4 easier ones. (path choices) or some kinda path choicing.
 
 *level, different spawn areas, maybe evac in center. WATER DIVIDES UNITS. so you have to coop ur units!!
+
+
+if time to move towers: JUST HAVE TO HIT IT AND QUIT IT. run through pick up stuff and keep going without killing everything. maybe just 1 tank. have to time it all the way through? hostage could be picked up at start, then just have to reach the end.
+
+
 
 * full fight level 1
 * testing etc / last sec visual changes or sth.
@@ -30,6 +34,10 @@ JUST HAVE TO HIT IT AND QUIT IT. run through pick up stuff and keep going withou
 
 
 extras if time: make shit more visible, change visuals etc. add icons in tutorial and level over screens. firing range sometimes doesnt match turret movement range. tab to rotate through units.
+show where u clicked for move order
+ui shows selected units.
+smoke for enemy damage?
+enemies moving on railing, for evade level
 
 *playtest
 
@@ -58,26 +66,8 @@ extraction zone: player has to also keep in mind defenses to bypass it.
 
 
 
-minimap flash when contact or detect enemy, diff color
-show where u clicked for move order
-
-river to shoot over
-forest to hide in
-city to block LoS
-
-ui shows selected units.
-
-LoS show, range show (in one like rews)
-
-some kinda info in ui when building units
 
 
-roadmap: 
-map maker/tile maker whatever. traversable/object/LOS
-
-unit control/movement
-
-unit fire
 
 
 
