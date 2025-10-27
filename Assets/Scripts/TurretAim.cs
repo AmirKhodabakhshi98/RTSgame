@@ -46,7 +46,7 @@ public class TurretAim : MonoBehaviour
             currentTarget = FindTarget();
         }
 
-        if (currentTarget != null)
+        if (currentTarget != null &&  IsTargetInRange(currentTarget))
         {
             RotateTurret();
             fireTimer -= Time.deltaTime;

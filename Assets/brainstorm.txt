@@ -67,7 +67,7 @@ extraction zone: player has to also keep in mind defenses to bypass it.
 *evade - start low health, priming player to not engage. using obstacles to run through, timing. use obstacle in combat, have to skirmish the tower. then finally u have to run through. a bit different map thats less chaotic but focuses more of micro, good for coming maps. uses all features introduced so far. variation as less combat and more evade focused. teaches units can start with low health
 turret speed and rotation, u can skirmish/dodge bullets. rts pro friends got that quite early
 *can choose to save healthpacks
-
+*showing path - visual feedback
 
 
 

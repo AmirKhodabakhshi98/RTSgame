@@ -144,10 +144,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerUnit (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 4533786791461834344, guid: 7be926679d0291a47a6651f1349d7247, type: 3}
-      propertyPath: autoRepath.mode
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5952583869503882531, guid: 7be926679d0291a47a6651f1349d7247, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.22
