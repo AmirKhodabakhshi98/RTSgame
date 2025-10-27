@@ -26811,7 +26811,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7087490539090425806, guid: d05ab7d729a69184787ec250c4b6c273, type: 3}
       propertyPath: evacScore
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7087490539090425806, guid: d05ab7d729a69184787ec250c4b6c273, type: 3}
       propertyPath: scoreText
