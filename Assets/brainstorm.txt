@@ -7,9 +7,10 @@ Levels:
 * Level 1 - basic movement, see combat
 * Level 2 - multi tank, intro to hostage rescue
 * Level 3 - healthpack intro. choices intro. healthpacks too hard to miss :P
+* Level open ground - bigger level with prev introduced mechanics. less railroaded. lets player start making choices and consider his approaches.
 * Level Obstacle - teaches how obstacles work. easy and harder ways to finish it.
-* Level Water - teaching water mechanics. 4 tanks, 
-
+* Level Water - teaching water mechanics. more tanks (4) to control.
+* Level Islands - more precision micro required. timing and coordination between units important.
 
 
 
