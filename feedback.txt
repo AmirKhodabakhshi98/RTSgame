@@ -1,0 +1,9 @@
+rinetzukaaa:
+
+
+
+showing path would be really good.
+bugg: on collision inside maybe for bullets.
+evade level might be too easy
+fix fucking turret and fire range not matching
+level select

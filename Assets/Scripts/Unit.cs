@@ -21,6 +21,7 @@ public class Unit : MonoBehaviour
     [SerializeField] private GameObject SelectedEffect;
     [SerializeField] private GameObject RangeEffect;
     [SerializeField] private GameObject RangeIndicator;
+    [SerializeField] private GameObject LinePath;
     private string myTag;
     private string enemyTag;
     private Slider healthBar;
@@ -45,6 +46,7 @@ public class Unit : MonoBehaviour
             enemyTag = "EnemyUnit";
             SelectedEffect.SetActive(selected);
             RangeIndicator.GetComponent<RangeIndicator>().setSelected(selected);
+            LinePath.GetComponent<LinePath>().setSelected(selected);
         }
         healthBar = GetComponentInChildren<Slider>();
         group = healthBar.GetComponent<CanvasGroup>();
@@ -131,6 +133,7 @@ public class Unit : MonoBehaviour
         SelectedEffect.SetActive(selected);
         RangeIndicator.GetComponent<RangeIndicator>().setSelected(selected);
         group.alpha = selected ? 1f : 0f;
+        LinePath.GetComponent<LinePath>().setSelected(selected);
         //RangeEffect.SetActive(selected);
         
     }

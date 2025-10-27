@@ -22,7 +22,6 @@ public class Bullet : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-
     }
 
     public void Initialize(float r, string mt, string et, int d, float s)

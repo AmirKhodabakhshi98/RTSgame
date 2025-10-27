@@ -4904,6 +4904,7 @@ MonoBehaviour:
   SelectedEffect: {fileID: 5591798787473970401}
   RangeEffect: {fileID: 8405148180161794800}
   RangeIndicator: {fileID: 2446108589894840461}
+  LinePath: {fileID: 0}
 --- !u!114 &4583780508180736417
 MonoBehaviour:
   m_ObjectHideFlags: 0
