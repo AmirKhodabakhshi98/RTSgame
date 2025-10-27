@@ -137,8 +137,11 @@ public class Unit : MonoBehaviour
         //RangeEffect.SetActive(selected);
         
     }
-    
-    
+
+    public bool GetSelected()
+    {
+        return selected;
+    }
     
     public string getMyTag()
     {

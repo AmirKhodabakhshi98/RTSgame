@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -7,35 +8,58 @@ public class UnitSelector : MonoBehaviour
 
     private Vector2 startPos;
     private Vector2 endPos;
-    
+    private Dictionary<int, List<GameObject>> groups = new Dictionary<int, List<GameObject>>();
+    private int index = 0;
+    private GameObject lastSelected;
 
     [SerializeField] private float clickThreshold = 6f; // pixels to decide click vs drag
 
     private void Start()
     {
         selectionBox.gameObject.SetActive(false);
+
     }
 
-    private int index = 0;
-    private GameObject lastSelected;
+
     private void Update()
     {
         GameObject[] playerUnits = GameObject.FindGameObjectsWithTag("PlayerUnit");
         
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            Debug.Log(index);
-            if (lastSelected != null)
-            {
-                lastSelected.GetComponent<Unit>().SetSelected(false);
-            }
-            Debug.Log(index);
+            DeselectAll(playerUnits);
             index++;
-            index = index % playerUnits.Length;
-            Debug.Log(index);
+            index %= playerUnits.Length;
             playerUnits[index].GetComponent<Unit>().SetSelected(true);
-            lastSelected = playerUnits[index];
+            
         }
+
+        for (int i = 0; i < 10; i++)
+        {
+            List<GameObject> selected = GetSelectedUnits(playerUnits);
+            KeyCode key = KeyCode.Alpha0 + i;
+            if (Input.GetKeyDown(key) || Input.GetKey(key))
+            {   
+                if (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKey(KeyCode.LeftControl))
+                {
+                    groups[i] = new List<GameObject>(selected);
+                }
+                else
+                {
+                    DeselectAll(playerUnits);
+                    if (groups.ContainsKey(i))
+                    {
+                        for (int j = 0; j < groups[i].Capacity; j++)
+                        {
+                            groups[i][j].GetComponent<Unit>().SetSelected(true);
+                        }
+                    }
+
+                }
+            }
+            
+        }
+       
         
         
         if (Input.GetMouseButtonDown(0)) 
@@ -67,6 +91,27 @@ public class UnitSelector : MonoBehaviour
 
     }
 
+    private void DeselectAll(GameObject[] playerUnits)
+    {
+        for (int i = 0; i < playerUnits.Length; i++)
+        {
+            playerUnits[i].GetComponent<Unit>().SetSelected(false);
+        }
+    }
+
+    private List<GameObject> GetSelectedUnits(GameObject[] playerUnits)
+    {
+        List<GameObject> selected  = new List<GameObject>();
+        for (int i = 0; i < playerUnits.Length; i++)
+        {
+            if (playerUnits[i] != null && playerUnits[i].GetComponent<Unit>().GetSelected())
+            {
+                selected.Add(playerUnits[i]);
+            }
+        }
+        
+        return selected;
+    }
     private void DrawSelection()
     {
         Vector2 center = (startPos + endPos) * 0.5f;
