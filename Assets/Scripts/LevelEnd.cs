@@ -103,9 +103,13 @@ public class LevelEnd : MonoBehaviour
                     gold.color = Color.white;
                 }
             }
-                
-            
-            
+
+            if (SceneManager.GetActiveScene().buildIndex ==
+                SceneManager.sceneCountInBuildSettings - 1) //case final level
+            {
+                titleText = "All evaluations complete";
+                buttonText = "FINISH GAME";
+            }
             
                           
         }
@@ -130,8 +134,12 @@ public class LevelEnd : MonoBehaviour
         Time.timeScale = 1f;
         if (won)
         {
-            
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            if (SceneManager.GetActiveScene().buildIndex ==
+                SceneManager.sceneCountInBuildSettings - 1)
+            {
+                SceneManager.LoadScene(0);
+            }else{
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);}
         }
         else
         {
