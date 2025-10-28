@@ -2,11 +2,9 @@ W1: features
 
 
 
-* smoke on enemies
-* unit cards.
+
 * add icons in tutorial and level over screens. controls icons/page
-
-
+* evac bättre UI när man spelar.
 
 Levels:
 * Level 1 - basic movement, see combat
@@ -17,11 +15,12 @@ Levels:
 * Level Water - teaching water mechanics. more tanks (4) to control.
 * Level Evade - teaching player a bit more about individual unit micro given all elements.
 * Level Islands - more precision micro required. timing and coordination between units important.
-
+* Level Final - path choices, either go for 1 harder area or 2 easier. pro players can try to get all. uses all mechanics introduced in the game, and good opportunities for microing
 
 
 * full fight level with path choicing n stuff. chokepoints, maybe water to thin it. "rooms" that are obstacle surrounded.
 
+* smoke on enemies
 
 * testing etc / last sec visual changes or sth.
 
@@ -40,7 +39,6 @@ Levels:
 * teaser
 
 
-extras if time: 
 
 
 

@@ -108,6 +108,10 @@ public class Unit : MonoBehaviour
 
     public void setControlGroups(List<int> controlGroups)
     {
+        if (!card)
+        {
+            return;
+        }
         if (controlGroups.Count <= 0)
         {
             card.GetComponentInChildren<TextMeshProUGUI>().text = "";
@@ -149,6 +153,7 @@ public class Unit : MonoBehaviour
 
     public void SetSelected(bool isSelected)
     {
+        Debug.Log(isSelected);
         selected = isSelected;
         formation.SetSelected(gameObject, selected);
         SelectedEffect.SetActive(selected);

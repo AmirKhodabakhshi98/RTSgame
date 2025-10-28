@@ -186,9 +186,11 @@ MonoBehaviour:
   damage: 100
   bulletSpeed: 5
   deathClip: {fileID: 8300000, guid: bda7054b9326e4d43a0babf90f8f8802, type: 3}
+  card: {fileID: 0}
   SelectedEffect: {fileID: 0}
   RangeEffect: {fileID: 0}
   RangeIndicator: {fileID: 0}
+  LinePath: {fileID: 0}
 --- !u!114 &6701037684008533392
 MonoBehaviour:
   m_ObjectHideFlags: 0
