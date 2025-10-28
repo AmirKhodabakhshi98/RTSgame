@@ -18,8 +18,8 @@ public class Unit : MonoBehaviour
     public int damage = 10;
     public float bulletSpeed = 5f;
     public AudioClip deathClip;
-    private ScoreManager scoreManager;
-    public GameObject card;
+    private ScoreManager scoreManager = null;
+
     
     [SerializeField] private GameObject SelectedEffect;
     [SerializeField] private GameObject RangeEffect;
@@ -73,7 +73,7 @@ public class Unit : MonoBehaviour
             LevelEnd.instance.Register();
             group.alpha = 0f;
             formation = Formation.instance;
-            card.GetComponentInChildren<Slider>().value = health / maxHealth;
+
         }
         healthBar.value = health/maxHealth;
 
@@ -106,18 +106,6 @@ public class Unit : MonoBehaviour
         }
     }
 
-    public void setControlGroups(List<int> controlGroups)
-    {
-        if (!card)
-        {
-            return;
-        }
-        if (controlGroups.Count <= 0)
-        {
-            card.GetComponentInChildren<TextMeshProUGUI>().text = "";
-        }
-        card.GetComponentInChildren<TextMeshProUGUI>().text = string.Join(" ", controlGroups.ToArray());//controlGroups.ToString();
-    }
     
     public void changeHealth(float amount)
     {
@@ -139,11 +127,6 @@ public class Unit : MonoBehaviour
             }
             Destroy(gameObject);
         }
-        if (card)
-        {
-            card.GetComponentInChildren<Slider>().value = health / maxHealth;
-        }
-        
         healthBar.value = health/maxHealth;
         
     }

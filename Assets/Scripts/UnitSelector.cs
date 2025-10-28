@@ -44,7 +44,6 @@ public class UnitSelector : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKey(KeyCode.LeftControl))
                 {
                     groups[i] = new List<GameObject>(selected);
-                    SendUnitGroupNumbers(playerUnits, groups);
                 }
                 else
                 {
@@ -94,23 +93,7 @@ public class UnitSelector : MonoBehaviour
 
     }
 
-    private void SendUnitGroupNumbers(GameObject[] playerUnits, Dictionary<int, List<GameObject>> groups)
-    {
-        foreach (GameObject playerUnit in playerUnits)
-        {
-            List<int> controlGroups = new List<int>();
-            foreach(int key in groups.Keys)
-            {
-                if (groups[key].Contains(playerUnit))
-                {
-                    controlGroups.Add(key);
-                }
-            }
-            
-            playerUnit.GetComponent<Unit>().setControlGroups(controlGroups);
-        }
-        
-    }
+
 
     private void DeselectAll(GameObject[] playerUnits)
     {
