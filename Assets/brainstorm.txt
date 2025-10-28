@@ -1,11 +1,6 @@
 W1: features
 
 
-
-
-* add icons in tutorial and level over screens. controls icons/page
-* evac bättre UI när man spelar.
-
 Levels:
 * Level 1 - basic movement, see combat
 * Level 2 - multi tank, intro to hostage rescue
@@ -22,9 +17,8 @@ Levels:
 
 * smoke on enemies
 
+
 * testing etc / last sec visual changes or sth.
-
-
 
 
 
