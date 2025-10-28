@@ -13,13 +13,10 @@ Levels:
 * Level Final - path choices, either go for 1 harder area or 2 easier. pro players can try to get all. uses all mechanics introduced in the game, and good opportunities for microing
 
 
-* full fight level with path choicing n stuff. chokepoints, maybe water to thin it. "rooms" that are obstacle surrounded.
-
 * smoke on enemies
 
 
-* testing etc / last sec visual changes or sth.
-
+* testing etc / last sec visual changes or sth. / control group+tab should camera jump / better sounds
 
 
 
@@ -57,8 +54,11 @@ turret speed and rotation, u can skirmish/dodge bullets. rts pro friends got tha
 *showing path - visual feedback
 *control groups and tab to rotate. make micro/gameplay easier. options on how to control(mouse select vs keys)
 * final level playtested so you cant just run through.
-
-
+* skilled player can alter turret rotate sync.
+* moving to dodge bullets while checking turret rotation pos.
+* generally(specially final level) noob might move all at once, better player more micro, might make strategic choice to leave some units behind to preserve their hp. rotate untis based on damage taken.
+* lead unit can be microed around as enemies target it while backline provides fire support.
+* control groups skill too, noob might pick all in 1 group, but for pro allows fast switches to micro.
 
 
 https://sfxr.me/

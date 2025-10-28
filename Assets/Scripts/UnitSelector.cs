@@ -13,11 +13,12 @@ public class UnitSelector : MonoBehaviour
     private GameObject lastSelected;
     private ScoreManager scoreManager; 
     [SerializeField] private float clickThreshold = 6f; // pixels to decide click vs drag
-
+    private Camera mainCam;
     private void Start()
     {
+        mainCam = Camera.main;
         selectionBox.gameObject.SetActive(false);
-           scoreManager = ScoreManager.instance;
+        scoreManager = ScoreManager.instance;
            
     }
 
@@ -32,6 +33,7 @@ public class UnitSelector : MonoBehaviour
             index++;
             index %= playerUnits.Length;
             playerUnits[index].GetComponent<Unit>().SetSelected(true);
+            moveCamera(playerUnits[index].transform);
             
         }
 
@@ -48,14 +50,16 @@ public class UnitSelector : MonoBehaviour
                 else
                 {
                     DeselectAll(playerUnits);
+                    
                     if (groups.ContainsKey(i))
                     {
+                        moveCamera(groups[i][0].transform);
+                        
                         for (int j = 0; j < groups[i].Capacity; j++)
                         {
                             groups[i][j].GetComponent<Unit>().SetSelected(true);
                         }
                     }
-
                 }
             }
             
@@ -93,7 +97,17 @@ public class UnitSelector : MonoBehaviour
 
     }
 
-
+    private void moveCamera(Transform target, bool forceMove = false)
+    {
+        Vector3 viewportPos = mainCam.WorldToViewportPoint(target.position);
+        bool isInView =
+            viewportPos.x >= 0 && viewportPos.x <= 1 &&
+            viewportPos.y >= 0 && viewportPos.y <= 1;
+        if (!isInView || forceMove)
+        {
+            mainCam.transform.position = new Vector3(target.position.x, target.position.y, mainCam.transform.position.z);
+        }
+    }
 
     private void DeselectAll(GameObject[] playerUnits)
     {
