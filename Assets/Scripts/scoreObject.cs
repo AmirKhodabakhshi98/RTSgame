@@ -15,7 +15,7 @@ public class scoreObject : MonoBehaviour
         scoreManager = ScoreManager.instance;
         scoreManager.AddTotal(score);
     }
-
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("PlayerUnit"))

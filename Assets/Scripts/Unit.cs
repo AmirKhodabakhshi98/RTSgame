@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using Pathfinding;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,7 +18,8 @@ public class Unit : MonoBehaviour
     public int damage = 10;
     public float bulletSpeed = 5f;
     public AudioClip deathClip;
-
+    private ScoreManager scoreManager;
+    public GameObject card;
     
     [SerializeField] private GameObject SelectedEffect;
     [SerializeField] private GameObject RangeEffect;
@@ -26,8 +29,9 @@ public class Unit : MonoBehaviour
     private string enemyTag;
     private Slider healthBar;
     private CanvasGroup group;
-
+    
     private Formation formation;
+    private List<int> controlGroups;
     
     private void Awake()
     {
@@ -47,6 +51,7 @@ public class Unit : MonoBehaviour
             SelectedEffect.SetActive(selected);
             RangeIndicator.GetComponent<RangeIndicator>().setSelected(selected);
             LinePath.GetComponent<LinePath>().setSelected(selected);
+            
         }
         healthBar = GetComponentInChildren<Slider>();
         group = healthBar.GetComponent<CanvasGroup>();
@@ -59,15 +64,16 @@ public class Unit : MonoBehaviour
     {
         //if units start moving weirdly on spawn look here XD //
         
-
+        
         if(gameObject.CompareTag("PlayerUnit"))
         {
-            
+            scoreManager = ScoreManager.instance;;
             target = new GameObject("ClickMarker").transform;
             RangeEffect.transform.localScale = new Vector3(attackRange * 2, attackRange * 2, 1);
             LevelEnd.instance.Register();
             group.alpha = 0f;
             formation = Formation.instance;
+            card.GetComponentInChildren<Slider>().value = health / maxHealth;
         }
         healthBar.value = health/maxHealth;
 
@@ -100,10 +106,21 @@ public class Unit : MonoBehaviour
         }
     }
 
+    public void setControlGroups(List<int> controlGroups)
+    {
+        if (controlGroups.Count <= 0)
+        {
+            card.GetComponentInChildren<TextMeshProUGUI>().text = "";
+        }
+        card.GetComponentInChildren<TextMeshProUGUI>().text = string.Join(" ", controlGroups.ToArray());//controlGroups.ToString();
+    }
+    
     public void changeHealth(float amount)
     {
         
         health += amount;
+
+        
         if (health > maxHealth)
         {
             health = maxHealth;
@@ -117,6 +134,10 @@ public class Unit : MonoBehaviour
                 LevelEnd.instance.Unregister();   
             }
             Destroy(gameObject);
+        }
+        if (card)
+        {
+            card.GetComponentInChildren<Slider>().value = health / maxHealth;
         }
         
         healthBar.value = health/maxHealth;

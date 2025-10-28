@@ -19,6 +19,9 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
+    
+    
+    
     private void OnGUI()
     {
         
@@ -46,5 +49,6 @@ public class ScoreManager : MonoBehaviour
     {
         return totalScore;
     }
+    
     
 }

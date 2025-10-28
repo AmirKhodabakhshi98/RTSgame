@@ -20,7 +20,7 @@ Levels:
 
 
 
-* full fight level with path choicing n stuff. chokepoints, maybe water to thin it.
+* full fight level with path choicing n stuff. chokepoints, maybe water to thin it. "rooms" that are obstacle surrounded.
 
 
 * testing etc / last sec visual changes or sth.
