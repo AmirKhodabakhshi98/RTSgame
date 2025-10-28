@@ -52,8 +52,14 @@ TagManager:
   - name: Ground
     uniqueID: 403576753
     locked: 0
+  - name: Roads
+    uniqueID: 4079709687
+    locked: 0
   - name: NT, fire over
     uniqueID: 3761237051
+    locked: 0
+  - name: Sprinkles
+    uniqueID: 3211180491
     locked: 0
   - name: Range effect
     uniqueID: 4280890963

@@ -16,7 +16,7 @@ Levels:
 * smoke on enemies
 
 
-* testing etc / last sec visual changes or sth. / better sounds / persistent dead units?
+* testing etc / visual sprucing / better sounds / explosion on death / smoke for damage.
 
 
 
