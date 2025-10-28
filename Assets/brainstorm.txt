@@ -62,7 +62,7 @@ turret speed and rotation, u can skirmish/dodge bullets. rts pro friends got tha
 *can choose to save healthpacks
 *showing path - visual feedback
 *control groups and tab to rotate. make micro/gameplay easier. options on how to control(mouse select vs keys)
-
+* final level playtested so you cant just run through.
 
 
 

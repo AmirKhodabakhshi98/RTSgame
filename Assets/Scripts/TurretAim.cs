@@ -61,7 +61,7 @@ public class TurretAim : MonoBehaviour
 
     private void Shoot()
     {
-        Debug.Log("shooting");
+    //    Debug.Log("shooting");
         GameObject bullet = Instantiate(bulletPrefab);
         bullet.transform.position = barrel.transform.position;
         bullet.transform.localRotation = barrel.transform.rotation;

@@ -136,7 +136,7 @@ public class Unit : MonoBehaviour
 
     public void SetSelected(bool isSelected)
     {
-        Debug.Log(isSelected);
+      //  Debug.Log(isSelected);
         selected = isSelected;
         formation.SetSelected(gameObject, selected);
         SelectedEffect.SetActive(selected);

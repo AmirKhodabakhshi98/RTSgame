@@ -8,12 +8,17 @@ public class StartMenu : MonoBehaviour
     
     public void OnStartClick()
     {
-        SceneManager.LoadScene(2+dropDownLevel);
+        SceneManager.LoadScene(3+dropDownLevel);
     }
     
     public void OnTutorialClick()
     {
         SceneManager.LoadScene(1);
+    }
+
+    public void OnControlsClick()
+    {
+        SceneManager.LoadScene(2);
     }
     
     
