@@ -1266,6 +1266,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grid 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6688602601051980295, guid: 1ff3b23c5b0955d419bb60b767d2ceec, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688602601051980295, guid: 1ff3b23c5b0955d419bb60b767d2ceec, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036130597538326348, guid: 1ff3b23c5b0955d419bb60b767d2ceec, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036130597538326348, guid: 1ff3b23c5b0955d419bb60b767d2ceec, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
