@@ -1,5 +1,6 @@
 W1: features
 
+https://pixabay.com/sound-effects/search/tank/
 
 Levels:
 * Level 1 - basic movement, see combat
@@ -15,14 +16,14 @@ Levels:
 
 * smoke on enemies
 
-
-* testing etc / visual sprucing / better sounds / explosion on death / smoke for damage.
+* testing etc / visual sprucing / better sounds / explosion on death? / smoke for damage. / fick fucking UI
 
 
 
 
 *playtest
 
+Th/F
 * playthrough
 
 * development screencast
