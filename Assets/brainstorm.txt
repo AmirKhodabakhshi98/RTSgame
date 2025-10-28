@@ -16,7 +16,7 @@ Levels:
 * smoke on enemies
 
 
-* testing etc / last sec visual changes or sth. / control group+tab should camera jump / better sounds
+* testing etc / last sec visual changes or sth. / better sounds / persistent dead units?
 
 
 
@@ -45,7 +45,7 @@ extraction zone: player has to also keep in mind defenses to bypass it.
 *rotating troops, so most hp guys go in first to take hits.
 * better player can save more hostages
 * sound queues, voiceovers for deaths/kills
-*talk about shot sounds and animation differing for hits vs miss. sound que for when shooting happens.
+* talk about shot sounds and animation differing for hits vs miss. sound que for when shooting happens.
 * level variation, some have to evade, some have to coordinate units separated by water.
 
 *evade - start low health, priming player to not engage. using obstacles to run through, timing. use obstacle in combat, have to skirmish the tower. then finally u have to run through. a bit different map thats less chaotic but focuses more of micro, good for coming maps. uses all features introduced so far. variation as less combat and more evade focused. teaches units can start with low health
