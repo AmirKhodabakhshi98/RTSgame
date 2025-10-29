@@ -99,6 +99,7 @@ public class UnitSelector : MonoBehaviour
 
     private void moveCamera(Transform target, bool forceMove = false)
     {
+        /*
         Vector3 viewportPos = mainCam.WorldToViewportPoint(target.position);
         bool isInView =
             viewportPos.x >= 0 && viewportPos.x <= 1 &&
@@ -107,6 +108,7 @@ public class UnitSelector : MonoBehaviour
         {
             mainCam.transform.position = new Vector3(target.position.x, target.position.y, mainCam.transform.position.z);
         }
+        */
     }
 
     private void DeselectAll(GameObject[] playerUnits)

@@ -86,7 +86,7 @@ public class LevelEnd : MonoBehaviour
             
             titleText = "Evacuation Complete";
             buttonText = "NEXT LEVEL";
-            debriefText += score + " / " + totalScore + " civilians saved." + "\n" +
+            debriefText += score + " / " + totalScore + " friendly soldiers saved." + "\n" +
                           playerUnitsLive + " / " + playerUnitsTotal + " units survived.";
             
             /*

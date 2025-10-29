@@ -835,8 +835,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "How To Play: \nLeft click to select a unit. Drag a box to select multiple
-    units. \nRight click to move the selected units. \nTab to rotate through units\nCtrl+(0-9)
-    to create control groups\n0-9 to select control group\n"
+    units. \nRight click to move the selected units. \nWASD or MMB to move camera.\nScroll
+    wheel to zoom.\nTab to rotate through units\nCtrl+(0-9) to create control groups\n0-9
+    to select control group\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -32,6 +32,8 @@ public class Unit : MonoBehaviour
     private string enemyTag;
     private Slider healthBar;
     private CanvasGroup group;
+    private Image groupFill;
+    private Color groupFillOriginalColor;
     
     private Formation formation;
     private List<int> controlGroups;
@@ -59,7 +61,8 @@ public class Unit : MonoBehaviour
         healthBar = GetComponentInChildren<Slider>();
         group = healthBar.GetComponent<CanvasGroup>();
         if (!group) group = healthBar.gameObject.AddComponent<CanvasGroup>();
-        
+        groupFill = group.GetComponent<Slider>().fillRect.GetComponent<Image>();
+        groupFillOriginalColor = groupFill.color;
     }
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -109,7 +112,7 @@ public class Unit : MonoBehaviour
         }
     }
 
-    private float fadeDuration = 1f;
+
     public void changeHealth(float amount)
     {
         
@@ -136,23 +139,29 @@ public class Unit : MonoBehaviour
         if (myTag == "PlayerUnit")
         {
          //   StartFadeOut();
-         group.alpha = 1f;
-         StartFadeOut();
+        // group.alpha = 1f;
+       //  StartFadeOut();
          //group.DOFade(0f, fadeDuration);
          
         }
-        
+        StartFadeOut();
     }
     
     private Tween fadeTween;
     public Ease easeType = Ease.InOutSine;
-
+    private Color flashColor = Color.white;
     public void StartFadeOut()
     {
+
+        float prevAlpha = group.alpha;
         // Kill any existing fade tween before starting a new one
         if (fadeTween != null && fadeTween.IsActive())
+        {
             fadeTween.Kill();
+        }
 
+
+/*
         // Start a new fade tween
         fadeTween = group
             .DOFade(0f, fadeDuration)
@@ -163,6 +172,39 @@ public class Unit : MonoBehaviour
                 group.blocksRaycasts = false;
                 fadeTween = null;
             });
+
+        */
+        
+        /*
+        fadeTween = group.DOFade(0f, 0.1f)
+            .SetLoops(10, LoopType.Yoyo)
+            .SetEase(Ease.Linear);
+        */
+
+
+        group.alpha = 1f;
+
+        groupFill.DOColor(flashColor, 0.1f)
+            .SetLoops(2 * 2, LoopType.Yoyo)
+            .SetEase(Ease.Linear)
+            .OnComplete(() =>
+            {
+                groupFill.color = groupFillOriginalColor;
+                group.alpha = prevAlpha;
+            });
+
+
+        /*
+              if (selected || myTag == "EnemyUnit")
+              {
+                  group.alpha = 1f;
+              }
+              else
+              {
+                  group.alpha = 0f;
+              }
+      */
+
     }
 
     public void SetSelected(bool isSelected)
