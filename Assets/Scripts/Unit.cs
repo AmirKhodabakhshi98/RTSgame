@@ -30,10 +30,15 @@ public class Unit : MonoBehaviour
     [SerializeField] private GameObject LinePath;
     private string myTag;
     private string enemyTag;
+    
     private Slider healthBar;
     private CanvasGroup group;
     private Image groupFill;
     private Color groupFillOriginalColor;
+    
+    [SerializeField] private SpriteRenderer TankBaseRenderer;
+    [SerializeField] private SpriteRenderer TankTurretRenderer;
+
     
     private Formation formation;
     private List<int> controlGroups;
@@ -63,6 +68,9 @@ public class Unit : MonoBehaviour
         if (!group) group = healthBar.gameObject.AddComponent<CanvasGroup>();
         groupFill = group.GetComponent<Slider>().fillRect.GetComponent<Image>();
         groupFillOriginalColor = groupFill.color;
+        
+      //  TankBaseRenderer = transform.Find("TankBase").gameObject.GetComponent<SpriteRenderer>();
+      //  TankTurretRenderer = transform.Find("TankTurretRenderer").gameObject.GetComponent<SpriteRenderer>();
     }
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -101,7 +109,6 @@ public class Unit : MonoBehaviour
                 ads.target = target;
             }
         }
-        
     }
     
     void OnCollisionEnter2D(Collision2D collision)
@@ -192,6 +199,28 @@ public class Unit : MonoBehaviour
                 groupFill.color = groupFillOriginalColor;
                 group.alpha = prevAlpha;
             });
+
+
+
+        TankBaseRenderer.DOKill();
+        TankTurretRenderer.DOKill();
+        
+        TankBaseRenderer.DOFade(0.8f, 0.05f)
+            .SetLoops(2, LoopType.Yoyo)
+          //  .SetEase(Ease.InOutSine)
+            .OnComplete(() =>
+            {
+                TankBaseRenderer.color = Color.white;
+            });
+
+        TankTurretRenderer.DOFade(0.8f, 0.05f)
+            .SetLoops(2, LoopType.Yoyo)
+           // .SetEase(Ease.InOutSine)
+            .OnComplete(() =>
+            {
+                TankTurretRenderer.color = Color.white;
+            });
+
 
 
         /*
