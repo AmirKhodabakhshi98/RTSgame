@@ -3,6 +3,7 @@ using Pathfinding;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public class Unit : MonoBehaviour
 {
@@ -106,7 +107,7 @@ public class Unit : MonoBehaviour
         }
     }
 
-    
+    private float fadeDuration = 1f;
     public void changeHealth(float amount)
     {
         
@@ -128,11 +129,37 @@ public class Unit : MonoBehaviour
             Destroy(gameObject);
         }
         healthBar.value = health/maxHealth;
+        if (myTag == "PlayerUnit")
+        {
+         //   StartFadeOut();
+         group.alpha = 1f;
+         StartFadeOut();
+         //group.DOFade(0f, fadeDuration);
+         
+        }
         
     }
+    
+    private Tween fadeTween;
+    public Ease easeType = Ease.InOutSine;
 
+    public void StartFadeOut()
+    {
+        // Kill any existing fade tween before starting a new one
+        if (fadeTween != null && fadeTween.IsActive())
+            fadeTween.Kill();
 
-
+        // Start a new fade tween
+        fadeTween = group
+            .DOFade(0f, fadeDuration)
+            .SetEase(easeType)
+            .OnComplete(() =>
+            {
+                group.interactable = false;
+                group.blocksRaycasts = false;
+                fadeTween = null;
+            });
+    }
 
     public void SetSelected(bool isSelected)
     {

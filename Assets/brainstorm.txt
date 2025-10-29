@@ -14,10 +14,14 @@ Levels:
 * Level Final - path choices, either go for 1 harder area or 2 easier. pro players can try to get all. uses all mechanics introduced in the game, and good opportunities for microing
 
 
-* smoke on enemies
 
-* testing etc / better sounds / explosion on death? / smoke for damage. / fix fucking UI
-
+fix fucking UI
+health hard to see.
+smoke on enemies
+better sounds
+explosion on death? 
+smoke for damage. 
+faster turret aim
 
 
 
@@ -60,6 +64,14 @@ turret speed and rotation, u can skirmish/dodge bullets. rts pro friends got tha
 * generally(specially final level) noob might move all at once, better player more micro, might make strategic choice to leave some units behind to preserve their hp. rotate untis based on damage taken.
 * lead unit can be microed around as enemies target it while backline provides fire support.
 * control groups skill too, noob might pick all in 1 group, but for pro allows fast switches to micro.
+
+
+was nice watching him slowly figure out water. first island with just 1 turret was good
+evade level was nice change of pace. hammers home usefulness of evading and micro too, altough some players realised that earlier.
+island level, player realised turrets focus one unit. was scared first with his 2 damaged tanks :D then used it for rest of level
+
+
+
 
 
 https://sfxr.me/

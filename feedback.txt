@@ -1,9 +1,14 @@
-rinetzukaaa:
+
+was nice watching him slowly figure out water. first island with just 1 turret was good
+evade level was nice change of pace. hammers home usefulness of evading and micro too, altough some players realised that earlier.
+island level, player realised turrets focus one unit. was scared first with his 2 damaged tanks :D then used it for rest of level
 
 
 
-showing path would be really good.
-bugg: on collision inside maybe for bullets.
-evade level might be too easy
-fix fucking turret and fire range not matching
-level select
+final level downward civ doesnt exist?
+
+health hard to see.
+
+heal sprite confusing
+
+faster turret aim
