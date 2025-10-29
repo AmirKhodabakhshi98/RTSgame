@@ -4902,6 +4902,8 @@ MonoBehaviour:
   damage: 10
   bulletSpeed: 5
   deathClip: {fileID: 8300000, guid: 93173bc9fe198d047b5f5edcdded5073, type: 3}
+  smokePlosion: {fileID: 9052877224108317424, guid: 009f6710be825934e9273a24ca2ac9f1, type: 3}
+  deathPlosion: {fileID: 8169057111422126003, guid: 150a4e3b3d032f04c8b01f1eab165f19, type: 3}
   SelectedEffect: {fileID: 5591798787473970401}
   RangeEffect: {fileID: 8405148180161794800}
   RangeIndicator: {fileID: 2446108589894840461}

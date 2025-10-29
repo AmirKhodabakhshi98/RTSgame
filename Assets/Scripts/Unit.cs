@@ -21,6 +21,8 @@ public class Unit : MonoBehaviour
     public AudioClip deathClip;
     private ScoreManager scoreManager = null;
 
+    public GameObject smokePlosion;
+    public GameObject deathPlosion;
     
     [SerializeField] private GameObject SelectedEffect;
     [SerializeField] private GameObject RangeEffect;
@@ -126,6 +128,8 @@ public class Unit : MonoBehaviour
             if(myTag == "PlayerUnit"){
                 LevelEnd.instance.Unregister();   
             }
+            Instantiate(smokePlosion, transform.position, Quaternion.identity);
+            Instantiate(deathPlosion, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
         healthBar.value = health/maxHealth;
