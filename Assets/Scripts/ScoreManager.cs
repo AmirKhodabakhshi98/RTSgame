@@ -4,13 +4,13 @@ using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
-    private int score;
+    private int score = 0;
     private int totalScore;
     public int evacScore = 1;
     
     public static ScoreManager instance;
-    [SerializeField] private TMP_Text scoreText;
     
+    private TextMeshProUGUI scoreText;
     private void Awake()
     {
         if (!instance)
@@ -19,16 +19,28 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+      //  scoreText = Evac.instance.GetComponentInChildren<TextMeshProUGUI>();
+      
+      
+      updateScoreText();
+    }
+
+    private void updateScoreText()
+    {
+        Evac.instance.updateText(evacScore - score);
+
+    }
     
-    
-    
+    /*  
     private void OnGUI()
     {
         
         //scoreText.text = score.ToString() + " / " + totalScore.ToString();
         scoreText.text = score.ToString() + " / " + evacScore.ToString();
     }
-
+*/
     public void AddTotal(int scoreToAdd)
     {
         totalScore += scoreToAdd;
@@ -38,6 +50,7 @@ public class ScoreManager : MonoBehaviour
     public void AddScore(int scoreToAdd)
     {
         score += scoreToAdd;
+        updateScoreText();
     }
 
     public int getScore()

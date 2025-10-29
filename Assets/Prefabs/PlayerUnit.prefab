@@ -4898,7 +4898,7 @@ MonoBehaviour:
   maxHealth: 100
   attackRange: 5
   fireRate: 1
-  turretRotationSpeed: 1000
+  turretRotationSpeed: 100
   damage: 10
   bulletSpeed: 5
   deathClip: {fileID: 8300000, guid: 93173bc9fe198d047b5f5edcdded5073, type: 3}

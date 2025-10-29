@@ -44,4 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0e6f9e81b61d99429feefb3727e67fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  evacScore: 1
   scoreText: {fileID: 0}
+  Evac: {fileID: 2041771816842794857, guid: 82138b97d72c1324b9f445c41bd213b7, type: 3}

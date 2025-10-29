@@ -17,7 +17,6 @@ Levels:
 
 fix fucking UI
 better sounds
-death animation
 turret not move on unit rotate?
 
 
