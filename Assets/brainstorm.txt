@@ -16,12 +16,9 @@ Levels:
 
 
 fix fucking UI
-health hard to see.
-smoke on enemies
 better sounds
-explosion on death? 
-smoke for damage. 
-faster turret aim
+death animation
+turret not move on unit rotate?
 
 
 
