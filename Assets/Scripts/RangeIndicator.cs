@@ -45,21 +45,15 @@ public class RangeIndicator : MonoBehaviour
         if (selected)
         {
             lr.enabled = true;
- //           if(transform.position != lastPos){
 
-
-   //             updateTimer -= Time.deltaTime;
- //               if (updateTimer <= 0f)
                 {
-     //               updateTimer = updateInterval;
-               //     DrawRangeRing();
-     //               lastPos = transform.position;
+
                 }
 
                  UpdateTargetPoints();
                  SmoothUpdateLine();
             }
-  //      }
+
         else
         {
             lr.enabled = false;
@@ -80,7 +74,7 @@ public class RangeIndicator : MonoBehaviour
             RaycastHit2D hit = Physics2D.Raycast(origin, dir, range, obstacleMask);
             float dist = hit ? hit.distance : range;
 
-            // keep slightly in front of sprites to avoid z-fighting
+
             targetPoints[i] = origin + dir * dist + Vector2.up * 0.0001f;
         }
     }
@@ -89,7 +83,7 @@ public class RangeIndicator : MonoBehaviour
     {
         for (int i = 0; i < segments; i++)
         {
-            // blend toward new position for smooth movement
+
             currentPoints[i] = Vector3.Lerp(currentPoints[i], targetPoints[i], smoothing);
             lr.SetPosition(i, currentPoints[i]);
         }
@@ -119,7 +113,7 @@ public class RangeIndicator : MonoBehaviour
             float angle = angleStep * i * Mathf.Deg2Rad;
             Vector2 direction = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
 
-            // Raycast outwards — stop at obstacles
+
             RaycastHit2D hit = Physics2D.Raycast(origin, direction, range, obstacleMask);
 
             float dist = hit ? hit.distance : range;

@@ -99,16 +99,7 @@ public class UnitSelector : MonoBehaviour
 
     private void moveCamera(Transform target, bool forceMove = false)
     {
-        /*
-        Vector3 viewportPos = mainCam.WorldToViewportPoint(target.position);
-        bool isInView =
-            viewportPos.x >= 0 && viewportPos.x <= 1 &&
-            viewportPos.y >= 0 && viewportPos.y <= 1;
-        if (!isInView || forceMove)
-        {
-            mainCam.transform.position = new Vector3(target.position.x, target.position.y, mainCam.transform.position.z);
-        }
-        */
+
     }
 
     private void DeselectAll(GameObject[] playerUnits)
@@ -178,7 +169,7 @@ public class UnitSelector : MonoBehaviour
 
     private void SelectByBox()
     {
-        // Selection rect in screen space
+
         Vector2 selMin = Vector2.Min(startPos, endPos);
         Vector2 selMax = Vector2.Max(startPos, endPos);
 
@@ -192,7 +183,7 @@ public class UnitSelector : MonoBehaviour
 
             Bounds b = col.bounds;
 
-            // 4 world-space corners of collider bounds
+
             Vector3[] corners =
             {
                 new Vector3(b.min.x, b.min.y, 0),
@@ -222,7 +213,7 @@ public class UnitSelector : MonoBehaviour
                 continue;
             }
 
-            // Collider's screen-space AABB
+            // Collides screen-space AABB
             bool overlap =
                 !(selMax.x < cMinX || selMin.x > cMaxX || selMax.y < cMinY || selMin.y > cMaxY);
 

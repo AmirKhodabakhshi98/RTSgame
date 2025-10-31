@@ -89,19 +89,7 @@ public class LevelEnd : MonoBehaviour
             debriefText += score + " / " + totalScore + " friendly soldiers saved." + "\n" +
                           playerUnitsLive + " / " + playerUnitsTotal + " units survived.";
             
-            /*
-            if (wonLevel == 0)
-            {
-                debriefText += "\n At least some survived.";
-            }else if (wonLevel == 1)
-            {
-                debriefText += "\n Sacrifices had to be made.";
-            }
-            else
-            {
-                debriefText += "\n Perfect!";
-            }
-            */
+
 
             subtitle.text = "Bare Minimum...";
             bronze.color = Color.white;

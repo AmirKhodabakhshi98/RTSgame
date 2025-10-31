@@ -15,7 +15,8 @@ Levels:
 
 
 
-* playthrough
+
+* clean code comments.
 
 * development screencast
 
@@ -26,9 +27,11 @@ Levels:
 
 
 gamedesign things to say:
+
+
 *selected effect to clarify whos selected. health bar for feedback. explosions animations differ for feedback.
 *range indicator teaches player range. we cant see for ai, but they have same range. skilled player learns that and to estimate when contact will happen.
-*can use obstacles to bait enemy fire. since everyone can shoot through obstacles. SKILL
+*can use obstacles to bait enemy fire. since everyone can "shoot" through obstacles. SKILL
 *timing turret movements
 *limited health pickups. skill to use most damaged one. can also save them for later.
 notes: remember with health pickups, its best to have as few damaged tanks as possible as theyre a limited supply. sth sht progression/skill
@@ -39,9 +42,11 @@ extraction zone: player has to also keep in mind defenses to bypass it.
 * sound queues, voiceovers for deaths/kills
 * talk about shot sounds and animation differing for hits vs miss. sound que for when shooting happens.
 * level variation, some have to evade, some have to coordinate units separated by water.
+* health warning at 30/100. gives time for player to react.
 
 *evade - start low health, priming player to not engage. using obstacles to run through, timing. use obstacle in combat, have to skirmish the tower. then finally u have to run through. a bit different map thats less chaotic but focuses more of micro, good for coming maps. uses all features introduced so far. variation as less combat and more evade focused. teaches units can start with low health
 turret speed and rotation, u can skirmish/dodge bullets. rts pro friends got that quite early
+
 *can choose to save healthpacks
 *showing path - visual feedback
 *control groups and tab to rotate. make micro/gameplay easier. options on how to control(mouse select vs keys)
@@ -51,6 +56,7 @@ turret speed and rotation, u can skirmish/dodge bullets. rts pro friends got tha
 * generally(specially final level) noob might move all at once, better player more micro, might make strategic choice to leave some units behind to preserve their hp. rotate untis based on damage taken.
 * lead unit can be microed around as enemies target it while backline provides fire support.
 * control groups skill too, noob might pick all in 1 group, but for pro allows fast switches to micro.
+* can time turret rotations to minmax damage
 
 
 was nice watching him slowly figure out water. first island with just 1 turret was good

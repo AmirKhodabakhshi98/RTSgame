@@ -46,6 +46,8 @@ public class Unit : MonoBehaviour
     
     private Formation formation;
     private List<int> controlGroups;
+    private Color baseColor ;
+    private Color turretColor;
     
     private void Awake()
     {
@@ -77,9 +79,9 @@ public class Unit : MonoBehaviour
         groupFill = group.GetComponent<Slider>().fillRect.GetComponent<Image>();
         groupFillOriginalColor = groupFill.color;
         
-      //  TankBaseRenderer = transform.Find("TankBase").gameObject.GetComponent<SpriteRenderer>();
-      //  TankTurretRenderer = transform.Find("TankTurretRenderer").gameObject.GetComponent<SpriteRenderer>();
 
+      baseColor = TankBaseRenderer.color;
+      turretColor = TankTurretRenderer.color;
     }
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -163,10 +165,6 @@ public class Unit : MonoBehaviour
                  AudioSource.PlayClipAtPoint(warningSound, transform.position);
                  StartWarningFade();
             }
-         //   StartFadeOut();
-        // group.alpha = 1f;
-       //  StartFadeOut();
-         //group.DOFade(0f, fadeDuration);
          
         }
 
@@ -197,11 +195,13 @@ public class Unit : MonoBehaviour
     }
 
 
-
+    
     private Color flashColor1;
     
     public void StartFadeOut()
-    {
+    {        
+        TankBaseRenderer.color = baseColor;
+        TankTurretRenderer.color = turretColor;
     
         float prevAlpha = group.alpha;
         // Kill any existing fade tween before starting a new one
@@ -211,30 +211,12 @@ public class Unit : MonoBehaviour
         }
 
 
-/*
-        // Start a new fade tween
-        fadeTween = group
-            .DOFade(0f, fadeDuration)
-            .SetEase(easeType)
-            .OnComplete(() =>
-            {
-                group.interactable = false;
-                group.blocksRaycasts = false;
-                fadeTween = null;
-            });
 
-        */
-        
-        /*
-        fadeTween = group.DOFade(0f, 0.1f)
-            .SetLoops(10, LoopType.Yoyo)
-            .SetEase(Ease.Linear);
-        */
-        
-        
-        
+
+
+        group.DOKill();
         group.alpha = 1f;
-
+        
         groupFill.DOColor(flashColor, 0.1f)
             .SetLoops(2 * 2, LoopType.Yoyo)
             //.SetEase(Ease.Linear)
@@ -250,27 +232,8 @@ public class Unit : MonoBehaviour
         TankBaseRenderer.DOKill();
         TankTurretRenderer.DOKill();
         
-        /*
-        TankBaseRenderer.DOFade(0.8f, 0.05f)
-            .SetLoops(2, LoopType.Yoyo)
-          //  .SetEase(Ease.InOutSine)
-            .OnComplete(() =>
-            {
-                TankBaseRenderer.color = Color.white;
-            });
 
-        TankTurretRenderer.DOFade(0.8f, 0.05f)
-            .SetLoops(2, LoopType.Yoyo)
-           // .SetEase(Ease.InOutSine)
-            .OnComplete(() =>
-            {
-                TankTurretRenderer.color = Color.white;
-            });
-*/
-  
-       // Color flashColor1 = Color.red; // 🔴 choose your flash color
 
-        Color baseColor = TankBaseRenderer.color;
         TankBaseRenderer.DOColor(flashColor1, 0.05f)
             .SetLoops(2, LoopType.Yoyo)
             //.SetEase(Ease.InOutSine)
@@ -279,7 +242,7 @@ public class Unit : MonoBehaviour
                 TankBaseRenderer.color = baseColor;
             });
 
-        Color turretColor = TankTurretRenderer.color;
+        
         TankTurretRenderer.DOColor(flashColor1, 0.05f)
             .SetLoops(2, LoopType.Yoyo)
             //.SetEase(Ease.InOutSine)
@@ -288,7 +251,8 @@ public class Unit : MonoBehaviour
                 TankTurretRenderer.color = turretColor;
             });
 
-
+       // TankBaseRenderer.color = baseColor;
+     //   TankTurretRenderer.color = turretColor;
     }
 
     public void SetSelected(bool isSelected)

@@ -33,14 +33,7 @@ public class ScoreManager : MonoBehaviour
 
     }
     
-    /*  
-    private void OnGUI()
-    {
-        
-        //scoreText.text = score.ToString() + " / " + totalScore.ToString();
-        scoreText.text = score.ToString() + " / " + evacScore.ToString();
-    }
-*/
+
     public void AddTotal(int scoreToAdd)
     {
         totalScore += scoreToAdd;

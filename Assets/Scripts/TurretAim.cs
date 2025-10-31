@@ -16,7 +16,7 @@ public class TurretAim : MonoBehaviour
     
     private int damage;
     private float bulletSpeed;
-    Vector2 transform2dCenter; //should fix turret move and firing ranges not matching exactly
+    Vector2 transform2dCenter; 
     [Range(0f, 1f)]
     public float idleRotationFactor = 1f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
