@@ -77,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 56010277
-  m_SortingLayer: 6
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: 69cfaa5de8e01584ab02085395b2f1fa, type: 3}
   m_Color: {r: 0.95075846, g: 1, b: 0, a: 0.72156864}
@@ -171,7 +171,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1283289169
-  m_SortingLayer: 7
+  m_SortingLayer: 9
   m_SortingOrder: -1
   m_Sprite: {fileID: -2818578864559392179, guid: f48c6187ad4c58344bee642d737d9525, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -243,7 +243,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   score: 1
-  soundClip: {fileID: 8300000, guid: 974ffc7321fc660469898237090819cd, type: 3}
+  soundClip: {fileID: 8300000, guid: 93d514186941a2146bf8e0fddcd11366, type: 3}
+  getToEvacSound: {fileID: 8300000, guid: 3d3d729dfc1b94543a7176f2f684dcfd, type: 3}
 --- !u!58 &558424074931257035
 CircleCollider2D:
   m_ObjectHideFlags: 0

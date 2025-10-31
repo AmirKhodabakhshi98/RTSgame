@@ -9,19 +9,31 @@ public class scoreObject : MonoBehaviour
     public AudioClip soundClip;
     
     private ScoreManager scoreManager;
+    private Evac evac;
     
     private void Start()
     {
         scoreManager = ScoreManager.instance;
         scoreManager.AddTotal(score);
+        evac = Evac.instance;
     }
+    [SerializeField] private AudioClip getToEvacSound;
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("PlayerUnit"))
         {
-            AudioSource.PlayClipAtPoint(soundClip, transform.position);
             scoreManager.AddScore(score); //for ui
+            if (evac.shouldPlayEvacSound())
+            {
+                AudioSource.PlayClipAtPoint(getToEvacSound, transform.position);
+            }
+            else
+            {
+                AudioSource.PlayClipAtPoint(soundClip, transform.position);
+            }
+            
+            
             //LevelEnd.instance.ScoreTotalAdd(); //for post level screen totals
             Destroy(gameObject);
         } 

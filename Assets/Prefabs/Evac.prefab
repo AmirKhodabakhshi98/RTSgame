@@ -250,6 +250,7 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: 96b6afd711e2dd048b26fc4290f394b5, type: 3}
   plane: {fileID: 7644993967369485480}
   scoreCanvas: {fileID: 3514087891374813470}
+  getToEvacSound: {fileID: 8300000, guid: 3d3d729dfc1b94543a7176f2f684dcfd, type: 3}
 --- !u!61 &1265581885055339793
 BoxCollider2D:
   m_ObjectHideFlags: 0

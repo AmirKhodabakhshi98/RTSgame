@@ -18,9 +18,22 @@ public class Evac : MonoBehaviour
 
         text = GetComponentInChildren<TextMeshProUGUI>();
     }
-    
+
 
     private bool done = false;
+
+
+    private int temp = 1;
+    public bool shouldPlayEvacSound()
+    {
+        if (done && temp == 1)
+        {
+            temp--;
+            return true;
+        }
+        return false;
+    }
+    
     public void updateText(int scoreLeft)
     {
         if (scoreLeft <= 0)
@@ -30,6 +43,7 @@ public class Evac : MonoBehaviour
                 done = true;
                 scoreCanvas.SetActive(false);
                 plane.SetActive(true);
+                
             }
         }
         else

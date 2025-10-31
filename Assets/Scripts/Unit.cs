@@ -38,7 +38,11 @@ public class Unit : MonoBehaviour
     
     [SerializeField] private SpriteRenderer TankBaseRenderer;
     [SerializeField] private SpriteRenderer TankTurretRenderer;
-
+    [SerializeField] private SpriteRenderer SelectedEffectRenderer;
+    [SerializeField] private SpriteRenderer WarningRenderer;
+    private GameObject WarningObject;
+    private Color warningStart ;//= //new Color(Color.white.r, Color.white.g, Color.white.b, 1f);
+    private Color warningEnd;// = //new Color(Color.white.r, Color.white.g, Color.white.b, 0f);
     
     private Formation formation;
     private List<int> controlGroups;
@@ -71,6 +75,9 @@ public class Unit : MonoBehaviour
         
       //  TankBaseRenderer = transform.Find("TankBase").gameObject.GetComponent<SpriteRenderer>();
       //  TankTurretRenderer = transform.Find("TankTurretRenderer").gameObject.GetComponent<SpriteRenderer>();
+      warningStart = new Color(WarningRenderer.color.r, WarningRenderer.color.g, WarningRenderer.color.b, 1f);
+      warningEnd = new Color(WarningRenderer.color.r, WarningRenderer.color.g, WarningRenderer.color.b, 0f);
+      WarningObject = WarningRenderer.gameObject;
     }
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -120,11 +127,14 @@ public class Unit : MonoBehaviour
     }
 
 
+    [SerializeField] private int warningSoundThreshold = 20;
+    [SerializeField] private AudioClip warningSound;
+
     public void changeHealth(float amount)
     {
         
         health += amount;
-
+        
         
         if (health > maxHealth)
         {
@@ -142,24 +152,55 @@ public class Unit : MonoBehaviour
             Instantiate(deathPlosion, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
+        
         healthBar.value = health/maxHealth;
         if (myTag == "PlayerUnit")
         {
+            if (health < warningSoundThreshold)
+            {
+                 AudioSource.PlayClipAtPoint(warningSound, transform.position);
+                 StartWarningFade();
+            }
          //   StartFadeOut();
         // group.alpha = 1f;
        //  StartFadeOut();
          //group.DOFade(0f, fadeDuration);
          
         }
+
+
         StartFadeOut();
     }
     
     private Tween fadeTween;
     public Ease easeType = Ease.InOutSine;
     private Color flashColor = Color.white;
+
+
+
+    public void StartWarningFade()
+    {
+        WarningObject.transform.position = transform.position;
+        WarningObject.transform.rotation = Quaternion.identity;
+        
+        WarningRenderer.color = warningStart;
+        WarningRenderer.DOFade(0.5f, 0.05f)
+            .SetLoops(10, LoopType.Yoyo)
+            //  .SetEase(Ease.InOutSine)
+            .OnComplete(() =>
+            {
+                WarningRenderer.color = warningEnd;
+            });
+        
+    }
+
+
+
+    [SerializeField] private Color unitFlashColor;
+    
     public void StartFadeOut()
     {
-
+    
         float prevAlpha = group.alpha;
         // Kill any existing fade tween before starting a new one
         if (fadeTween != null && fadeTween.IsActive())
@@ -187,13 +228,15 @@ public class Unit : MonoBehaviour
             .SetLoops(10, LoopType.Yoyo)
             .SetEase(Ease.Linear);
         */
-
-
+        
+        
+        
         group.alpha = 1f;
 
         groupFill.DOColor(flashColor, 0.1f)
             .SetLoops(2 * 2, LoopType.Yoyo)
-            .SetEase(Ease.Linear)
+            //.SetEase(Ease.Linear)
+            .SetEase(Ease.OutSine)
             .OnComplete(() =>
             {
                 groupFill.color = groupFillOriginalColor;
@@ -205,6 +248,7 @@ public class Unit : MonoBehaviour
         TankBaseRenderer.DOKill();
         TankTurretRenderer.DOKill();
         
+        /*
         TankBaseRenderer.DOFade(0.8f, 0.05f)
             .SetLoops(2, LoopType.Yoyo)
           //  .SetEase(Ease.InOutSine)
@@ -220,19 +264,28 @@ public class Unit : MonoBehaviour
             {
                 TankTurretRenderer.color = Color.white;
             });
+*/
+  
+        Color flashColor1 = Color.red; // 🔴 choose your flash color
 
+        Color baseColor = TankBaseRenderer.color;
+        TankBaseRenderer.DOColor(flashColor1, 0.05f)
+            .SetLoops(2, LoopType.Yoyo)
+            //.SetEase(Ease.InOutSine)
+            .OnComplete(() =>
+            {
+                TankBaseRenderer.color = baseColor;
+            });
 
+        Color turretColor = TankTurretRenderer.color;
+        TankTurretRenderer.DOColor(flashColor1, 0.05f)
+            .SetLoops(2, LoopType.Yoyo)
+            //.SetEase(Ease.InOutSine)
+            .OnComplete(() =>
+            {
+                TankTurretRenderer.color = turretColor;
+            });
 
-        /*
-              if (selected || myTag == "EnemyUnit")
-              {
-                  group.alpha = 1f;
-              }
-              else
-              {
-                  group.alpha = 0f;
-              }
-      */
 
     }
 

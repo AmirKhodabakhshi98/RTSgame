@@ -14,8 +14,9 @@ Levels:
 * Level Final - path choices, either go for 1 harder area or 2 easier. pro players can try to get all. uses all mechanics introduced in the game, and good opportunities for microing
 
 
+flash when wwarning.
 might be healthbar bug
-better sounds
+
 
 
 
