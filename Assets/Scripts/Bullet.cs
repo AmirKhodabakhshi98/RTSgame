@@ -1,4 +1,5 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -63,18 +64,33 @@ public class Bullet : MonoBehaviour
         }
         else if (collision.CompareTag("Obstacle"))
         {
-            Instantiate(obstacleExplosion, transform.position, Quaternion.identity);
-           // Instantiate(explosionSoundMiss, transform.position, Quaternion.identity);
-          
-           // AudioSource.PlayClipAtPoint(explosionSoundMiss, transform.position);
-            Destroy(gameObject);
+            ObstacleCollision();
         }else
         { 
             Physics2D.IgnoreCollision(collision.GetComponent<Collider2D>(), GetComponent<Collider2D>());
         }
-        
+    }
+
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("Obstacle"))
+        {
+            ObstacleCollision();
+        }
+
         
     }
+
+    private void ObstacleCollision()
+    {
+        Instantiate(obstacleExplosion, transform.position, Quaternion.identity);
+        // Instantiate(explosionSoundMiss, transform.position, Quaternion.identity);
+          
+        // AudioSource.PlayClipAtPoint(explosionSoundMiss, transform.position);
+        Destroy(gameObject);
+    }
+    
     
 }
 

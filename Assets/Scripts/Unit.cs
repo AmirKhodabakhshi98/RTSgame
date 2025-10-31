@@ -179,9 +179,9 @@ public class Unit : MonoBehaviour
     private Color flashColor = Color.white;
 
 
-
     public void StartWarningFade()
     {
+        WarningRenderer.DOKill();
         WarningObject.transform.position = transform.position;
         WarningObject.transform.rotation = Quaternion.identity;
         
