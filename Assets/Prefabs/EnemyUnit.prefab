@@ -194,7 +194,12 @@ MonoBehaviour:
   LinePath: {fileID: 0}
   TankBaseRenderer: {fileID: 6609120525861531817}
   TankTurretRenderer: {fileID: 8792295145086182682}
+  SelectedEffectRenderer: {fileID: 0}
+  WarningRenderer: {fileID: 0}
+  warningSoundThreshold: 20
+  warningSound: {fileID: 0}
   easeType: 4
+  flashColor1: {r: 1, g: 0, b: 0, a: 0}
 --- !u!114 &6701037684008533392
 MonoBehaviour:
   m_ObjectHideFlags: 0

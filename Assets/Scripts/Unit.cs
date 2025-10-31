@@ -57,6 +57,7 @@ public class Unit : MonoBehaviour
         {
             myTag = gameObject.tag;
             enemyTag = "PlayerUnit";
+            flashColor1 = Color.red;
         }else if (gameObject.CompareTag("PlayerUnit"))
         {
             
@@ -65,7 +66,10 @@ public class Unit : MonoBehaviour
             SelectedEffect.SetActive(selected);
             RangeIndicator.GetComponent<RangeIndicator>().setSelected(selected);
             LinePath.GetComponent<LinePath>().setSelected(selected);
-            
+            warningStart = new Color(WarningRenderer.color.r, WarningRenderer.color.g, WarningRenderer.color.b, 1f);
+            warningEnd = new Color(WarningRenderer.color.r, WarningRenderer.color.g, WarningRenderer.color.b, 0f);
+            WarningObject = WarningRenderer.gameObject;
+            flashColor1 = Color.blue;
         }
         healthBar = GetComponentInChildren<Slider>();
         group = healthBar.GetComponent<CanvasGroup>();
@@ -75,9 +79,7 @@ public class Unit : MonoBehaviour
         
       //  TankBaseRenderer = transform.Find("TankBase").gameObject.GetComponent<SpriteRenderer>();
       //  TankTurretRenderer = transform.Find("TankTurretRenderer").gameObject.GetComponent<SpriteRenderer>();
-      warningStart = new Color(WarningRenderer.color.r, WarningRenderer.color.g, WarningRenderer.color.b, 1f);
-      warningEnd = new Color(WarningRenderer.color.r, WarningRenderer.color.g, WarningRenderer.color.b, 0f);
-      WarningObject = WarningRenderer.gameObject;
+
     }
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -94,7 +96,7 @@ public class Unit : MonoBehaviour
             LevelEnd.instance.Register();
             group.alpha = 0f;
             formation = Formation.instance;
-
+            
         }
         healthBar.value = health/maxHealth;
 
@@ -185,7 +187,7 @@ public class Unit : MonoBehaviour
         
         WarningRenderer.color = warningStart;
         WarningRenderer.DOFade(0.5f, 0.05f)
-            .SetLoops(10, LoopType.Yoyo)
+            .SetLoops(20, LoopType.Yoyo)
             //  .SetEase(Ease.InOutSine)
             .OnComplete(() =>
             {
@@ -196,7 +198,7 @@ public class Unit : MonoBehaviour
 
 
 
-    [SerializeField] private Color unitFlashColor;
+    private Color flashColor1;
     
     public void StartFadeOut()
     {
@@ -266,7 +268,7 @@ public class Unit : MonoBehaviour
             });
 */
   
-        Color flashColor1 = Color.red; // 🔴 choose your flash color
+       // Color flashColor1 = Color.red; // 🔴 choose your flash color
 
         Color baseColor = TankBaseRenderer.color;
         TankBaseRenderer.DOColor(flashColor1, 0.05f)
