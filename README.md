@@ -2,7 +2,7 @@
 
 A small **RTS game with 9 levels**, built as a solo game design project.
 
-The main focus is **game design and level design over graphics** — teaching the player through gameplay, gradually introducing mechanics, providing clear feedback, and using level progression to communicate how the game works.
+The main focus is **game design and level design over graphics** - teaching the player through gameplay, gradually introducing mechanics, providing clear feedback, and using level progression to communicate how the game works.
 
 I made the game myself. The art/music/sound assets are **open-source/free-to-use assets** from other artists, and also A* project
 
