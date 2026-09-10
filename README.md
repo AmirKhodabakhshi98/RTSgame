@@ -6,7 +6,7 @@ The main focus is **game design and level design over graphics** - teaching the 
 
 I made the game myself. The art/music/sound assets are open-source/free-to-use assets from other artists, and also A* project
 
-## Trailer
+## Trailer (Opens in Youtube)
 
 [![ArmoredEvac Trailer](https://img.youtube.com/vi/gme0el5ltj4/maxresdefault.jpg)](https://www.youtube.com/watch?v=gme0el5ltj4)
 
